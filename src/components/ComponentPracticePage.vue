@@ -18,7 +18,7 @@
       </div>
       
       <div class="practice-title">
-        {{ practiceMode === 'initial' ? '声母练习' : '韵母练习' }}
+        {{ practiceTitle }}
       </div>
       
       <div class="timer-display">
@@ -183,22 +183,23 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
-import { getAllInitials, getAllFinals } from '../data/pinyinData'
+import { getAllInitials, getAllFinals, getAllOverallSyllables, type PinyinComponent } from '../data/pinyinData'
 import { speechService, pinyinPronunciationMap } from '../services/speechService'
 import { audioService } from '../services/audioService'
 
 // Props
 const props = defineProps<{
-  practiceMode: 'initial' | 'final'
+  practiceMode: 'initial' | 'final' | 'overall'
   duration: number
   speechEnabled?: boolean
   autoPlay?: boolean
+  randomize?: boolean
 }>()
 
 // Events
 const emit = defineEmits<{
   finish: [result: {
-    mode: 'initial' | 'final'
+    mode: 'initial' | 'final' | 'overall'
     totalComponents: number
     correctCount: number
     errorCount: number
@@ -230,22 +231,50 @@ const isPlaying = ref(false)
 const speechEnabled = computed(() => props.speechEnabled ?? false)
 const autoPlay = computed(() => props.autoPlay ?? false)
 
+// 标题与组件列表
+const practiceTitle = computed(() => {
+  if (props.practiceMode === 'initial') return '声母练习'
+  if (props.practiceMode === 'final') return '韵母练习'
+  return '整体认读音节练习'
+})
+
 // 获取显示的组件列表
 const displayComponents = computed(() => {
-  return props.practiceMode === 'initial' ? getAllInitials() : getAllFinals()
+    return components.value.map(item => item.component)
+})
+
+const components = computed(() => {
+  let base: PinyinComponent[] = []
+  switch (props.practiceMode) {
+    case 'initial':
+      base = getAllInitials()
+    case 'final':
+      base = getAllFinals()
+    case 'overall':
+      base = getAllOverallSyllables()
+  }
+  if (props.randomize) {
+    const arr: PinyinComponent[] = [...base]
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      const t = arr[i]!
+      arr[i] = arr[j]!
+      arr[j] = t
+    }
+    return arr;
+  }
+  return base
 })
 
 // 当前组件
 const currentComponent = computed(() => {
-  const component = displayComponents.value[currentIndex.value]
+  const component = components.value[currentIndex.value]
   if (!component) return null
   
   return {
-    component,
+    component: component.component,
     type: props.practiceMode,
-    examples: props.practiceMode === 'initial' 
-      ? ['爸', '白', '百'] // 简化示例，实际可以从数据中获取
-      : ['啊', '八', '马']
+    examples: component.examples || []
   }
 })
 

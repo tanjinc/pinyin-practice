@@ -116,6 +116,7 @@ export class AudioService {
 
     // 获取拼音组件的音频文件路径
     const audioPath = this.getComponentAudioPath(component)
+    console.log( 'playComponent audioPath: ', audioPath, 'component: ', component)
     if (!audioPath) {
       console.warn(`No audio file found for component: ${component}`)
       return Promise.resolve()
@@ -166,12 +167,15 @@ export class AudioService {
     // 从配置中读取
     const initialsMap = (pinyinAudioMap as any).initials as Record<string, string>
     const finalsMap = (pinyinAudioMap as any).finals as Record<string, string>
+    const overallMap = (pinyinAudioMap as any).overall as Record<string, string>
 
     let filename: string | undefined
     if (initialsMap && component in initialsMap) {
       filename = initialsMap[component]
     } else if (finalsMap && component in finalsMap) {
       filename = finalsMap[component]
+    } else if (overallMap && component in overallMap) {
+      filename = overallMap[component]
     }
 
     return filename ? `/mp3/${filename}` : null

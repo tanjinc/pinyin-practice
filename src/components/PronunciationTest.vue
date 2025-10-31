@@ -60,8 +60,8 @@ const emit = defineEmits<{
 }>()
 
 // 数据
-const initials = getAllInitials()
-const finals = getAllFinals()
+const initials = getAllInitials().map(item => item.component)
+const finals = getAllFinals().map(item => item.component)
 const currentPlaying = ref<string | null>(null)
 const isTestingAll = ref(false)
 
@@ -278,3 +278,5 @@ const goBack = () => {
   }
 }
 </style>
+
+

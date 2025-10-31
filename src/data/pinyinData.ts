@@ -10,9 +10,21 @@ export interface PinyinQuestion {
 export interface PinyinComponent {
   id: number;
   component: string; // 拼音组件（声母或韵母）
-  type: 'initial' | 'final'; // 声母或韵母
+  type: 'initial' | 'final' | 'overall'; // 声母或韵母或整体认读
   examples: string[]; // 示例字符
 }
+
+// 拼音组件练习模式
+export type PracticeMode = 'character' | 'initial' | 'final' | 'overall';
+
+// 拼音组件练习题目
+export interface ComponentQuestion {
+  id: number;
+  component: string;
+  type: 'initial' | 'final' | 'overall';
+  examples: string[];
+}
+
 
 // 声母数据
 export const initials: PinyinComponent[] = [
@@ -69,16 +81,27 @@ export const finals: PinyinComponent[] = [
   { id: 24, component: 'ong', type: 'final', examples: ['翁', '中', '红'] },
 ];
 
-// 拼音组件练习模式
-export type PracticeMode = 'character' | 'initial' | 'final';
+// 整体认读音节（常见教学集）
+export const overallSyllables: PinyinComponent[] = [
+  { id: 1, component: 'zhi', type: 'overall', examples: ['知', '只', '纸'] },
+  { id: 2, component: 'chi', type: 'overall', examples: ['吃', '尺', '池'] },
+  { id: 3, component: 'shi', type: 'overall', examples: ['师', '十', '石'] },
+  { id: 4, component: 'ri', type: 'overall', examples: ['日', '忍', '仍'] },
+  { id: 5, component: 'zi', type: 'overall', examples: ['字', '自', '资'] },
+  { id: 6, component: 'ci', type: 'overall', examples: ['此', '次', '刺'] },
+  { id: 7, component: 'si', type: 'overall', examples: ['四', '思', '司'] },
+  { id: 8, component: 'yi', type: 'overall', examples: ['一', '衣', '医'] },
+  { id: 9, component: 'wu', type: 'overall', examples: ['五', '屋', '舞'] },
+  { id: 10, component: 'yu', type: 'overall', examples: ['鱼', '雨', '玉'] },
+  { id: 11, component: 'ye', type: 'overall', examples: ['也', '叶', '夜'] },
+  { id: 12, component: 'yue', type: 'overall', examples: ['月', '越', '乐'] },
+  { id: 13, component: 'yuan', type: 'overall', examples: ['元', '园', '愿'] },
+  { id: 14, component: 'yin', type: 'overall', examples: ['因', '音', '银'] },
+  { id: 15, component: 'ying', type: 'overall', examples: ['英', '影', '迎'] },
+  { id: 16, component: 'yun', type: 'overall', examples: ['云', '运', '匀'] },
+  { id: 17, component: 'yong', type: 'overall', examples: ['用', '永', '勇'] },
+];
 
-// 拼音组件练习题目
-export interface ComponentQuestion {
-  id: number;
-  component: string;
-  type: 'initial' | 'final';
-  examples: string[];
-}
 
 export const pinyinQuestions: PinyinQuestion[] = [
   // 常用汉字拼音练习
@@ -153,13 +176,18 @@ export function getComponentQuestions(type: 'initial' | 'final', count: number =
 }
 
 // 获取所有声母（按顺序）
-export function getAllInitials(): string[] {
-  return initials.map(item => item.component);
+export function getAllInitials(): PinyinComponent[]  {
+  return initials;
 }
 
 // 获取所有韵母（按顺序）
-export function getAllFinals(): string[] {
-  return finals.map(item => item.component);
+export function getAllFinals(): PinyinComponent[] {
+  return finals;
+}
+
+// 获取所有整体认读音节
+export function getAllOverallSyllables(): PinyinComponent[] {
+  return overallSyllables;
 }
 
 // 获取声调符号

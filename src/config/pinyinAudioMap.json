@@ -50,5 +50,24 @@
     "ing": "ying1.mp3",
     "ong": "weng1.mp3"
   },
+  "overall": {
+    "zhi": "zhi1.mp3",
+    "chi": "chi1.mp3",
+    "shi": "shi1.mp3",
+    "ri": "ri1.mp3",
+    "zi": "zi1.mp3",
+    "ci": "ci1.mp3",
+    "si": "si1.mp3",
+    "yi": "yi1.mp3",
+    "wu": "wu1.mp3",
+    "yu": "yu1.mp3",
+    "ye": "ye1.mp3",
+    "yue": "yue1.mp3",
+    "yuan": "yuan1.mp3",
+    "yin": "yin1.mp3",
+    "ying": "ying1.mp3",
+    "yun": "yun1.mp3",
+    "yong": "yong1.mp3"
+  },
   "note": "以上均为默认使用第一声的预录音频文件名，仅文件名部分，实际路径为 public/mp3/{filename}"
 }

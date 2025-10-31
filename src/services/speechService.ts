@@ -54,6 +54,27 @@ const pinyinPronunciationMap: Record<string, string> = {
   'ong': '翁'
 }
 
+// 整体认读音节发音映射（用于显示）
+Object.assign(pinyinPronunciationMap, {
+  'zhi': '知',
+  'chi': '吃',
+  'shi': '诗',
+  'ri': '日',
+  'zi': '资',
+  'ci': '刺',
+  'si': '思',
+  'yi': '衣',
+  'wu': '乌',
+  'yu': '迂',
+  'ye': '耶',
+  'yue': '约',
+  'yuan': '元',
+  'yin': '因',
+  'ying': '英',
+  'yun': '晕',
+  'yong': '庸'
+})
+
 // 语音合成服务
 export class SpeechService {
   private synthesis: SpeechSynthesis

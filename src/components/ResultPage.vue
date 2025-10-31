@@ -10,25 +10,25 @@
       <div class="stats-grid">
         <div class="stat-card primary">
           <div class="stat-icon">🎯</div>
-          <div class="stat-value">{{ result.accuracy.toFixed(1) }}%</div>
+          <div class="stat-value">{{ (safeResult.accuracy ?? 0).toFixed(1) }}%</div>
           <div class="stat-label">准确率</div>
         </div>
         
         <div class="stat-card secondary">
           <div class="stat-icon">⚡</div>
-          <div class="stat-value">{{ result.answersPerMinute.toFixed(1) }}</div>
+          <div class="stat-value">{{ (safeResult.answersPerMinute ?? 0).toFixed(1) }}</div>
           <div class="stat-label">答题/分钟</div>
         </div>
         
         <div class="stat-card success">
           <div class="stat-icon">✅</div>
-          <div class="stat-value">{{ result.correctCount }}</div>
+          <div class="stat-value">{{ safeResult.correctCount }}</div>
           <div class="stat-label">正确题数</div>
         </div>
         
         <div class="stat-card danger">
           <div class="stat-icon">❌</div>
-          <div class="stat-value">{{ result.incorrectCount }}</div>
+          <div class="stat-value">{{ safeResult.incorrectCount }}</div>
           <div class="stat-label">错误题数</div>
         </div>
       </div>
@@ -36,11 +36,11 @@
       <div class="time-info">
         <div class="time-item">
           <span class="time-label">用时:</span>
-          <span class="time-value">{{ formatTime(result.timeUsed) }}</span>
+          <span class="time-value">{{ formatTime(safeResult.timeUsed ?? 0) }}</span>
         </div>
         <div class="time-item">
           <span class="time-label">总题数:</span>
-          <span class="time-value">{{ result.totalQuestions }}</span>
+          <span class="time-value">{{ safeResult.totalQuestions }}</span>
         </div>
       </div>
 
@@ -76,11 +76,11 @@
       </div>
 
       <!-- 答题历史图表 -->
-      <div class="history-chart" v-if="result.answerHistory.length > 0">
+      <div class="history-chart" v-if="safeResult.answerHistory.length > 0">
         <h3 class="chart-title">答题趋势</h3>
         <div class="chart-container">
           <div 
-            v-for="(answer, index) in result.answerHistory" 
+            v-for="(answer, index) in safeResult.answerHistory" 
             :key="index"
             class="chart-bar"
             :class="{ 'correct': answer.isCorrect, 'incorrect': !answer.isCorrect }"
@@ -137,6 +137,32 @@ const props = defineProps<{
   }
 }>()
 
+// 安全默认值，防止未传或字段缺失导致渲染报错
+const defaultResult = {
+  totalQuestions: 0,
+  correctCount: 0,
+  incorrectCount: 0,
+  accuracy: 0,
+  timeUsed: 0,
+  answersPerMinute: 0,
+  answerHistory: [] as Array<{
+    character: string
+    correctAnswer: string
+    userAnswer: string
+    isCorrect: boolean
+    timeSpent: number
+  }>
+}
+
+const safeResult = computed(() => {
+  const base = props.result ?? (defaultResult as typeof defaultResult)
+  return {
+    ...defaultResult,
+    ...base,
+    answerHistory: Array.isArray(base.answerHistory) ? base.answerHistory : []
+  }
+})
+
 // Events
 const emit = defineEmits<{
   restart: []
@@ -145,12 +171,12 @@ const emit = defineEmits<{
 
 // 计算错题
 const mistakes = computed(() => 
-  props.result.answerHistory.filter(answer => !answer.isCorrect)
+  safeResult.value.answerHistory.filter(answer => !answer.isCorrect)
 )
 
 // 计算最大用时（用于图表）
 const maxTime = computed(() => 
-  Math.max(...props.result.answerHistory.map(answer => answer.timeSpent), 1000)
+  Math.max(...safeResult.value.answerHistory.map(answer => answer.timeSpent), 1000)
 )
 
 // 格式化时间
@@ -162,7 +188,7 @@ const formatTime = (seconds: number): string => {
 
 // 获取成绩评价
 const getRatingIcon = (): string => {
-  const accuracy = props.result.accuracy
+  const accuracy = safeResult.value.accuracy
   if (accuracy >= 95) return '🌟'
   if (accuracy >= 85) return '🎉'
   if (accuracy >= 75) return '👍'
@@ -171,7 +197,7 @@ const getRatingIcon = (): string => {
 }
 
 const getRatingText = (): string => {
-  const accuracy = props.result.accuracy
+  const accuracy = safeResult.value.accuracy
   if (accuracy >= 95) return '完美表现'
   if (accuracy >= 85) return '优秀'
   if (accuracy >= 75) return '良好'
@@ -180,7 +206,7 @@ const getRatingText = (): string => {
 }
 
 const getRatingDescription = (): string => {
-  const accuracy = props.result.accuracy
+  const accuracy = safeResult.value.accuracy
   if (accuracy >= 95) return '你的拼音输入技能已经非常熟练了！'
   if (accuracy >= 85) return '表现很好，继续保持这个水平！'
   if (accuracy >= 75) return '不错的成绩，再多练习会更好！'
@@ -198,7 +224,7 @@ const backToHome = () => {
 }
 
 const shareResult = () => {
-  const text = `我在拼音打字练习中获得了 ${props.result.accuracy.toFixed(1)}% 的准确率，答对了 ${props.result.correctCount} 题！你也来挑战一下吧！`
+  const text = `我在拼音打字练习中获得了 ${(safeResult.value.accuracy ?? 0).toFixed(1)}% 的准确率，答对了 ${safeResult.value.correctCount} 题！你也来挑战一下吧！`
   
   if (navigator.share) {
     navigator.share({
