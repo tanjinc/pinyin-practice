@@ -172,10 +172,7 @@ const selectMode = (mode: PracticeMode) => {
   })
 }
 
-// 返回选择（保留API，当前布局不再使用）
-const goBack = () => {
-  selectedMode.value = null
-}
+// 返回选择（当前布局不再需要）
 
 // 开始练习
 const startPractice = () => {

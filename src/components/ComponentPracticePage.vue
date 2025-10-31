@@ -244,14 +244,13 @@ const displayComponents = computed(() => {
 })
 
 const components = computed(() => {
-  let base: PinyinComponent[] = []
-  switch (props.practiceMode) {
-    case 'initial':
-      base = getAllInitials()
-    case 'final':
-      base = getAllFinals()
-    case 'overall':
-      base = getAllOverallSyllables()
+  let base: PinyinComponent[]
+  if (props.practiceMode === 'initial') {
+    base = getAllInitials()
+  } else if (props.practiceMode === 'final') {
+    base = getAllFinals()
+  } else {
+    base = getAllOverallSyllables()
   }
   if (props.randomize) {
     const arr: PinyinComponent[] = [...base]

@@ -34,7 +34,7 @@ const startPractice = (settings: {
   questionCount: number
   speechEnabled: boolean
   autoPlay: boolean
-  randomize?: boolean
+  randomize: boolean
 }) => {
   practiceSettings.value = settings
   // 保存最近一次设置
