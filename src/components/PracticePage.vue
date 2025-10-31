@@ -30,7 +30,7 @@
 
       <!-- 主要练习区域 -->
       <div class="practice-area">
-        <div class="question-display">
+        <div class="question-display" ref="questionDisplayRef">
           <div class="character-container">
             <div class="character">{{ currentQuestion?.character }}</div>
             <button 
@@ -51,6 +51,8 @@
             ref="inputRef"
             v-model="userInput"
             @input="handleInput"
+            @focus="handleInputFocus"
+            @blur="handleInputBlur"
             @keydown.enter="submitAnswer"
             class="pinyin-input"
             :class="{ 
@@ -175,6 +177,8 @@ const isFinished = ref(false)
 const startTime = ref(Date.now())
 const inputRef = ref<HTMLInputElement>()
 const isPlaying = ref(false)
+const questionDisplayRef = ref<HTMLElement>()
+const originalViewportHeight = ref(0)
 
 // 语音设置
 const speechEnabled = computed(() => props.speechEnabled ?? false)
@@ -253,6 +257,38 @@ const startTimer = () => {
       }
     }
   }, 1000)
+}
+
+// 处理输入框获得焦点（移动端优化）
+const handleInputFocus = () => {
+  // 只在移动设备上执行滚动优化
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768
+  
+  if (!isMobile) return
+  
+  // 保存初始视口高度
+  if (originalViewportHeight.value === 0) {
+    originalViewportHeight.value = window.innerHeight
+  }
+  
+  // 延迟执行，确保键盘弹出后再调整
+  setTimeout(() => {
+    // 检查键盘是否弹出（视口高度是否减小）
+    const currentHeight = window.innerHeight
+    if (currentHeight < originalViewportHeight.value * 0.75 && questionDisplayRef.value) {
+      // 使用更温和的滚动方式
+      questionDisplayRef.value.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'center',
+        inline: 'nearest'
+      })
+    }
+  }, 300)
+}
+
+// 处理输入框失去焦点
+const handleInputBlur = () => {
+  // 键盘收起后可以恢复滚动位置（如果需要）
 }
 
 // 处理输入
@@ -490,9 +526,11 @@ onUnmounted(() => {
 .practice-area {
   text-align: center;
   margin-bottom: 40px;
+  scroll-margin-top: 20px;
 }
 
 .question-display {
+  scroll-margin-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -731,48 +769,121 @@ onUnmounted(() => {
 
 /* 响应式设计 */
 @media (max-width: 768px) {
+  .practice-page {
+    padding: 10px;
+    min-height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .container {
-    padding: 20px;
-    margin: 10px;
+    padding: 15px;
+    margin: 0;
+    border-radius: 12px;
   }
   
   .status-bar {
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 12px;
     text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .practice-area {
+    margin-bottom: 20px;
+  }
+
+  .question-display {
+    margin-bottom: 20px;
   }
   
   .character {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   
+  .input-area {
+    margin-bottom: 15px;
+  }
+
   .pinyin-input {
     font-size: 1.2rem;
     max-width: 250px;
+    padding: 14px 18px;
   }
   
   .actions {
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   
   .action-button {
-    width: 200px;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  /* 键盘弹出时的优化 */
+  .container {
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 480px) {
+  .practice-page {
+    padding: 8px;
+  }
+
+  .container {
+    padding: 12px;
+  }
+
+  .status-bar {
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .practice-area {
+    margin-bottom: 15px;
+  }
+
+  .question-display {
+    margin-bottom: 15px;
+  }
+
   .character {
     font-size: 3rem;
   }
+
+  .character-container {
+    gap: 12px;
+  }
+
+  .sound-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
   
+  .input-area {
+    margin-bottom: 12px;
+  }
+
   .pinyin-input {
     font-size: 1.1rem;
-    max-width: 200px;
+    max-width: 100%;
+    padding: 12px 16px;
   }
   
   .history-list {
     flex-direction: column;
+  }
+
+  /* 键盘弹出时确保内容可见 */
+  @supports (-webkit-touch-callout: none) {
+    .practice-area {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
   }
 }
 </style>

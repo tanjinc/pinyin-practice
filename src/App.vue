@@ -3,11 +3,10 @@ import { ref } from 'vue'
 import HomePage from './components/HomePage.vue'
 import PracticePage from './components/PracticePage.vue'
 import ComponentPracticePage from './components/ComponentPracticePage.vue'
-import NewResultPage from './components/NewResultPage.vue'
+import ResultPage from './components/ResultPage.vue'
 import PronunciationTest from './components/PronunciationTest.vue'
 import AudioTest from './components/AudioTest.vue'
 import { getRandomQuestions, type PinyinQuestion, type PracticeMode } from './data/pinyinData'
-import { saveSettings, recordSession } from './services/storageService'
 
 // 应用状态
 type AppState = 'home' | 'practice' | 'component-practice' | 'result' | 'pronunciation-test' | 'audio-test'
@@ -19,8 +18,7 @@ const practiceSettings = ref({
   duration: 60,
   questionCount: 20,
   speechEnabled: true,
-  autoPlay: false,
-  randomize: false
+  autoPlay: false
 })
 
 // 练习数据
@@ -34,24 +32,14 @@ const startPractice = (settings: {
   questionCount: number
   speechEnabled: boolean
   autoPlay: boolean
-  randomize: boolean
 }) => {
   practiceSettings.value = settings
-  // 保存最近一次设置
-  saveSettings({
-    mode: settings.mode,
-    duration: settings.duration,
-    questionCount: settings.questionCount,
-    speechEnabled: settings.speechEnabled,
-    autoPlay: settings.autoPlay,
-    randomize: settings.randomize
-  })
   
   if (settings.mode === 'character') {
     questions.value = getRandomQuestions(settings.questionCount)
     currentState.value = 'practice'
   } else {
-    // 声母、韵母或整体认读音节练习
+    // 声母或韵母练习
     currentState.value = 'component-practice'
   }
 }
@@ -59,32 +47,12 @@ const startPractice = (settings: {
 // 完成练习
 const finishPractice = (result: any) => {
   practiceResult.value = result
-  // 记录练习
-  recordSession({
-    mode: practiceSettings.value.mode,
-    accuracy: Number(result?.accuracy ?? 0),
-    speed: Number(result?.answersPerMinute ?? 0),
-    timeUsed: Number(result?.timeUsed ?? 0),
-    total: Number(result?.totalQuestions ?? 0),
-    correct: Number(result?.correctCount ?? 0),
-    incorrect: Number(result?.incorrectCount ?? 0)
-  })
   currentState.value = 'result'
 }
 
 // 完成组件练习
 const finishComponentPractice = (result: any) => {
   practiceResult.value = result
-  // 记录练习（组件练习）
-  recordSession({
-    mode: practiceSettings.value.mode,
-    accuracy: Number(result?.accuracy ?? 0),
-    speed: Number(result?.componentsPerMinute ?? 0),
-    timeUsed: Number(result?.timeUsed ?? 0),
-    total: Number(result?.totalComponents ?? 0),
-    correct: Number(result?.correctCount ?? 0),
-    incorrect: Number(result?.errorCount ?? 0)
-  })
   currentState.value = 'result'
 }
 
@@ -137,18 +105,17 @@ const goToAudioTest = () => {
     
     <!-- 拼音组件练习页面 -->
     <ComponentPracticePage 
-      v-if="currentState === 'component-practice'"
-      :practice-mode="practiceSettings.mode as 'initial' | 'final' | 'overall'"
+      v-if="currentState === 'component-practice' && (practiceSettings.mode === 'initial' || practiceSettings.mode === 'final' || practiceSettings.mode === 'overall')"
+      :practice-mode="practiceSettings.mode"
       :duration="practiceSettings.duration"
       :speech-enabled="practiceSettings.speechEnabled"
       :auto-play="practiceSettings.autoPlay"
-      :randomize="practiceSettings.randomize ?? false"
       @finish="finishComponentPractice"
       @back="backToHome"
     />
     
     <!-- 结果页面 -->
-    <NewResultPage 
+    <ResultPage 
       v-if="currentState === 'result'"
       :result="practiceResult"
       @restart="restartPractice"

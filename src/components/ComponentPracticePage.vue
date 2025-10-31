@@ -2,23 +2,9 @@
   <div class="component-practice-page">
     <!-- 顶部状态栏 -->
     <div class="top-bar">
-      <div class="status-items">
-        <div class="status-item">
-          <span class="status-icon">🔄</span>
-          <span class="status-text">重打</span>
-        </div>
-        <div class="status-item">
-          <span class="status-icon">👁️</span>
-          <span class="status-text">跟读已开</span>
-        </div>
-        <div class="status-item">
-          <span class="status-icon">✋</span>
-          <span class="status-text">指法已关</span>
-        </div>
-      </div>
       
       <div class="practice-title">
-        {{ practiceTitle }}
+        {{ practiceMode === 'initial' ? '声母练习' : practiceMode === 'final' ? '韵母练习' : '整体认读音节练习' }}
       </div>
       
       <div class="timer-display">
@@ -32,21 +18,21 @@
       <div class="component-grid">
         <div 
           v-for="(component, index) in displayComponents" 
-          :key="component"
+          :key="component.id || component.component"
           class="component-item"
           :class="{
             'current': index === currentIndex,
-            'correct': completedComponents.includes(component) && !errorComponents.includes(component),
-            'error': errorComponents.includes(component),
-            'completed': completedComponents.includes(component)
+            'correct': completedComponents.includes(component.component) && !errorComponents.includes(component.component),
+            'error': errorComponents.includes(component.component),
+            'completed': completedComponents.includes(component.component)
           }"
         >
-          {{ component }}
+          {{ component.component }}
         </div>
       </div>
 
       <!-- 当前练习信息 -->
-      <div class="current-info" v-if="currentComponent">
+      <div class="current-info" v-if="currentComponent" ref="currentInfoRef">
         <div class="current-component-container">
           <div class="current-component">{{ currentComponent.component }}</div>
           <button 
@@ -83,6 +69,8 @@
           ref="inputRef"
           v-model="userInput"
           @input="handleInput"
+          @focus="handleInputFocus"
+          @blur="handleInputBlur"
           @keydown.enter="submitAnswer"
           @keydown.space.prevent="submitAnswer"
           class="component-input"
@@ -193,7 +181,6 @@ const props = defineProps<{
   duration: number
   speechEnabled?: boolean
   autoPlay?: boolean
-  randomize?: boolean
 }>()
 
 // Events
@@ -226,54 +213,35 @@ const isFinished = ref(false)
 const startTime = ref(Date.now())
 const inputRef = ref<HTMLInputElement>()
 const isPlaying = ref(false)
+const currentInfoRef = ref<HTMLElement>()
+const originalViewportHeight = ref(0)
 
 // 语音设置
 const speechEnabled = computed(() => props.speechEnabled ?? false)
 const autoPlay = computed(() => props.autoPlay ?? false)
 
-// 标题与组件列表
-const practiceTitle = computed(() => {
-  if (props.practiceMode === 'initial') return '声母练习'
-  if (props.practiceMode === 'final') return '韵母练习'
-  return '整体认读音节练习'
-})
-
 // 获取显示的组件列表
 const displayComponents = computed(() => {
-    return components.value.map(item => item.component)
-})
-
-const components = computed(() => {
-  let base: PinyinComponent[]
+  let components: PinyinComponent[]
   if (props.practiceMode === 'initial') {
-    base = getAllInitials()
+    components = getAllInitials()
   } else if (props.practiceMode === 'final') {
-    base = getAllFinals()
+    components = getAllFinals()
   } else {
-    base = getAllOverallSyllables()
+    components = getAllOverallSyllables()
   }
-  if (props.randomize) {
-    const arr: PinyinComponent[] = [...base]
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      const t = arr[i]!
-      arr[i] = arr[j]!
-      arr[j] = t
-    }
-    return arr;
-  }
-  return base
+  return components as PinyinComponent[]
 })
 
 // 当前组件
 const currentComponent = computed(() => {
-  const component = components.value[currentIndex.value]
-  if (!component) return null
+  const componentData = displayComponents.value[currentIndex.value]
+  if (!componentData) return null
   
   return {
-    component: component.component,
+    component: componentData.component,
     type: props.practiceMode,
-    examples: component.examples || []
+    examples: componentData.examples || []
   }
 })
 
@@ -332,6 +300,31 @@ const startTimer = () => {
       }
     }
   }, 1000)
+}
+
+// 处理输入框获得焦点（移动端优化）
+const handleInputFocus = () => {
+  // 保存初始视口高度
+  if (originalViewportHeight.value === 0) {
+    originalViewportHeight.value = window.innerHeight
+  }
+  
+  // 延迟执行，确保键盘弹出后再调整
+  setTimeout(() => {
+    // 确保当前组件信息区域可见
+    if (currentInfoRef.value) {
+      currentInfoRef.value.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start',
+        inline: 'nearest'
+      })
+    }
+  }, 300)
+}
+
+// 处理输入框失去焦点
+const handleInputBlur = () => {
+  // 键盘收起后可以恢复滚动位置（如果需要）
 }
 
 // 处理输入
@@ -501,6 +494,8 @@ onUnmounted(() => {
   color: #ecf0f1;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .top-bar {
@@ -538,7 +533,7 @@ onUnmounted(() => {
 .timer-display {
   font-family: 'Courier New', monospace;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #e74c3c;
 }
 
@@ -550,6 +545,7 @@ onUnmounted(() => {
   justify-content: center;
   padding: 40px 20px;
   gap: 40px;
+  scroll-margin-top: 20px;
 }
 
 .component-grid {
@@ -601,6 +597,12 @@ onUnmounted(() => {
 .current-info {
   text-align: center;
   margin: 20px 0;
+  scroll-margin-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #2c3e50;
+  padding: 10px 0;
 }
 
 .current-component-container {
@@ -774,7 +776,7 @@ onUnmounted(() => {
 
 .progress-info {
   width: 100%;
-  max-width: 600px;
+  max-width: 300px;
 }
 
 .progress-stats {
@@ -896,19 +898,35 @@ onUnmounted(() => {
 
 /* 响应式设计 */
 @media (max-width: 768px) {
+  .component-practice-page {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
   .top-bar {
     flex-direction: column;
     gap: 15px;
     padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #34495e;
   }
   
   .status-items {
     gap: 15px;
   }
   
+  .practice-area {
+    padding: 20px 15px;
+    gap: 25px;
+    justify-content: flex-start;
+  }
+
   .component-grid {
     grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     gap: 15px;
+    max-width: 100%;
   }
   
   .component-item {
@@ -917,21 +935,44 @@ onUnmounted(() => {
     font-size: 1.5rem;
   }
   
+  .current-info {
+    position: sticky;
+    top: 0;
+    background: #2c3e50;
+    padding: 15px 0;
+    margin: 15px 0;
+  }
+
   .current-component {
     font-size: 3rem;
   }
   
+  .input-section {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .component-input {
     font-size: 1.2rem;
     padding: 12px 16px;
+    width: 100%;
   }
   
+  .progress-info {
+    width: 100%;
+  }
+
   .progress-stats {
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
   
   .bottom-actions {
     flex-wrap: wrap;
+    position: sticky;
+    bottom: 0;
+    background: #34495e;
+    z-index: 10;
   }
   
   .action-btn {
@@ -941,8 +982,18 @@ onUnmounted(() => {
 }
 
 @media (max-width: 480px) {
+  .top-bar {
+    padding: 12px 15px;
+  }
+
+  .practice-area {
+    padding: 15px 10px;
+    gap: 20px;
+  }
+
   .component-grid {
     grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
   }
   
   .component-item {
@@ -951,13 +1002,55 @@ onUnmounted(() => {
     font-size: 1.2rem;
   }
   
+  .current-info {
+    padding: 12px 0;
+    margin: 12px 0;
+  }
+
   .current-component {
     font-size: 2.5rem;
   }
+
+  .component-sound-button {
+    width: 45px;
+    height: 45px;
+    font-size: 1rem;
+  }
+
+  .input-section {
+    margin-top: 10px;
+  }
+
+  .component-input {
+    font-size: 1.1rem;
+    padding: 10px 14px;
+  }
   
+  .progress-info {
+    width: 100%;
+  }
+
   .progress-stats {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  .bottom-actions {
+    padding: 15px 10px;
+    gap: 10px;
+  }
+
+  .action-btn {
+    min-width: 100px;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  /* 键盘弹出时确保内容可见 */
+  @supports (-webkit-touch-callout: none) {
+    .practice-area {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
   }
 }
 </style>

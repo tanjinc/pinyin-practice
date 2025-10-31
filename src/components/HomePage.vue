@@ -379,7 +379,7 @@ const testAudio = () => {
   gap: 10px;
   cursor: pointer;
   font-weight: 600;
-  color: #2d3748;
+  color: white;
   font-size: 0.95rem;
 }
 
@@ -469,21 +469,45 @@ const testAudio = () => {
 }
 
 /* 响应式设计 */
-@media (max-width: 768px) {
-  .main-title {
-    font-size: 2.5rem;
-    padding-left: 20px;
-    margin-bottom: 40px;
+@media (max-width: 1024px) {
+  .content-layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
   
-  .cards-container {
+  .settings-panel {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    padding: 20px 15px;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .content-layout {
+    grid-template-columns: 1fr;
     gap: 20px;
-    padding: 20px;
+  }
+
+  .cards-container {
+    gap: 15px;
+    padding: 20px 10px;
   }
   
   .card {
-    width: 160px;
-    height: 220px;
+    width: calc(50% - 8px);
+    min-width: 140px;
+    height: 200px;
+    padding: 15px;
   }
   
   .book-icon {
@@ -496,8 +520,92 @@ const testAudio = () => {
     font-size: 1rem;
   }
   
+  .settings-panel {
+    margin: 0;
+  }
+
   .settings {
     padding: 20px;
+    gap: 16px;
+  }
+  
+  .setting-item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  
+  .setting-item label {
+    text-align: left;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .duration-select,
+  .question-select {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+    min-width: 120px;
+  }
+
+  .speech-label {
+    font-size: 0.9rem;
+  }
+  
+  .button-group {
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .start-button,
+  .test-button,
+  .audio-test-button,
+  .back-button {
+    font-size: 1rem;
+    padding: 14px 24px;
+    min-width: 180px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding: 15px 10px;
+  }
+
+  .main-title {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  
+  .cards-container {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 280px;
+    height: 180px;
+    padding: 15px;
+  }
+
+  .book-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }
+
+  .settings {
+    padding: 16px;
+    gap: 14px;
   }
   
   .setting-item {
@@ -507,32 +615,69 @@ const testAudio = () => {
   }
   
   .setting-item label {
-    text-align: left;
+    font-size: 0.85rem;
   }
-}
 
-@media (max-width: 480px) {
-  .main-title {
-    font-size: 2rem;
-  }
-  
-  .cards-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .card {
+  .duration-select,
+  .question-select {
+    font-size: 0.85rem;
     width: 100%;
-    max-width: 250px;
-    height: 200px;
+    padding: 10px;
+  }
+
+  .speech-label {
+    font-size: 0.85rem;
+  }
+
+  .speech-checkbox {
+    width: 20px;
+    height: 20px;
   }
   
+  .button-group {
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .start-button {
+    font-size: 1rem;
+    padding: 14px 20px;
+  }
+
+  .test-button,
+  .audio-test-button {
+    font-size: 0.9rem;
+    padding: 12px 20px;
+  }
+
   .start-button,
   .test-button,
   .audio-test-button,
   .back-button {
+    min-width: auto;
     width: 100%;
-    max-width: 250px;
+    max-width: 100%;
+  }
+}
+
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+  .card {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .card:active {
+    transform: scale(0.98);
+  }
+
+  .start-button:active,
+  .test-button:active,
+  .audio-test-button:active {
+    transform: scale(0.98);
+  }
+
+  .card:hover {
+    transform: none;
   }
 }
 </style>
