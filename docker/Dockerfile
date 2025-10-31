@@ -1,5 +1,5 @@
 # Stage 1: 编译
-FROM registry.cn-guangzhou.aliyuncs.com/yotugo/node:18-alpine AS build-stage
+FROM node:18-alpine AS build-stage
 
 # 设置工作目录
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build:prod
 
 # Stage 2: 部署 Nginx
-FROM registry.cn-guangzhou.aliyuncs.com/yotugo/nginx:1.25.5-alpine
+FROM nginx:1.25.5-alpine
 
 # 复制自定义的 Nginx 配置文件
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
