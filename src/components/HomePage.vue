@@ -53,6 +53,7 @@
             <option value="30">30秒</option>
             <option value="60">60秒</option>
             <option value="120">2分钟</option>
+            <option value="600">10分钟</option>
           </select>
         </div>
         
