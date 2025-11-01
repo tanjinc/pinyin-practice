@@ -1,6 +1,6 @@
 // 本地存储服务：用户资料、学习设置、练习进度与统计
 
-type PracticeMode = 'character' | 'initial' | 'final' | 'overall'
+import type { PracticeMode } from '../data/pinyinData'
 
 export interface UserProfile {
   id: string

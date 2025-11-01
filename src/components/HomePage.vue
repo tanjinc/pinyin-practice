@@ -95,6 +95,9 @@
           <button class="start-button" @click="startPractice">
             开始练习
           </button>
+          <button class="typing-button" @click="startTypingPractice">
+            ⌨️ 打字练习
+          </button>
         <button class="test-button" @click="testPronunciation" v-if="speechEnabled">
           🔊 发音测试
         </button>
@@ -123,6 +126,12 @@ const emit = defineEmits<{
     autoPlay: boolean
     randomize: boolean
   }]
+  startTyping: [settings: { 
+    duration: number
+    questionCount: number
+    speechEnabled: boolean
+    autoPlay: boolean
+  }]
   testPronunciation: []
   testAudio: []
 }>()
@@ -143,7 +152,7 @@ onMounted(() => {
   // 载入历史设置
   const last = loadSettings()
   if (last) {
-    selectedMode.value = last.mode
+    selectedMode.value = last.mode as PracticeMode
     selectedDuration.value = last.duration
     selectedQuestionCount.value = last.questionCount
     speechEnabled.value = last.speechEnabled
@@ -205,6 +214,16 @@ const testPronunciation = () => {
 // 音频测试
 const testAudio = () => {
   emit('testAudio')
+}
+
+// 开始打字练习
+const startTypingPractice = () => {
+  emit('startTyping', {
+    duration: selectedDuration.value,
+    questionCount: selectedQuestionCount.value,
+    speechEnabled: speechEnabled.value,
+    autoPlay: autoPlay.value
+  })
 }
 </script>
 
@@ -271,18 +290,20 @@ const testAudio = () => {
 
 .cards-container {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 30px;
   padding: 40px 20px;
   z-index: 1;
-  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-items: center;
 }
 
 .card {
   position: relative;
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   height: 280px;
   background: #2a2f4f;
   border: 1px solid #a0a0a0;
@@ -403,6 +424,7 @@ const testAudio = () => {
 }
 
 .start-button,
+.typing-button,
 .test-button,
 .audio-test-button,
 .back-button {
@@ -420,6 +442,13 @@ const testAudio = () => {
 .start-button {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.typing-button {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 4px 15px rgba(240, 147, 251, 0.4);
+  font-size: 1rem;
+  padding: 14px 28px;
 }
 
 .back-button {
@@ -444,6 +473,11 @@ const testAudio = () => {
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
 }
 
+.typing-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(240, 147, 251, 0.6);
+}
+
 .back-button:hover {
   background: rgba(160, 160, 160, 0.5);
 }
@@ -462,6 +496,7 @@ const testAudio = () => {
 }
 
 .start-button:active,
+.typing-button:active,
 .test-button:active,
 .audio-test-button:active,
 .back-button:active {
@@ -499,12 +534,14 @@ const testAudio = () => {
   }
 
   .cards-container {
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     padding: 20px 10px;
+    max-width: 100%;
   }
   
   .card {
-    width: calc(50% - 8px);
+    width: 100%;
     min-width: 140px;
     height: 200px;
     padding: 15px;
@@ -559,6 +596,7 @@ const testAudio = () => {
   }
 
   .start-button,
+  .typing-button,
   .test-button,
   .audio-test-button,
   .back-button {
@@ -581,9 +619,10 @@ const testAudio = () => {
   }
   
   .cards-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 15px;
     padding: 15px 0;
+    max-width: 100%;
   }
   
   .card {
@@ -591,6 +630,7 @@ const testAudio = () => {
     max-width: 280px;
     height: 180px;
     padding: 15px;
+    justify-self: center;
   }
 
   .book-icon {
@@ -651,6 +691,7 @@ const testAudio = () => {
   }
 
   .start-button,
+  .typing-button,
   .test-button,
   .audio-test-button,
   .back-button {

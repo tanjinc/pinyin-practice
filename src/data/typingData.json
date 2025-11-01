@@ -1,0 +1,6502 @@
+[
+  {
+    "id": 1,
+    "text": "你好",
+    "pinyin": "nǐhǎo"
+  },
+  {
+    "id": 2,
+    "text": "谢谢",
+    "pinyin": "xièxie"
+  },
+  {
+    "id": 3,
+    "text": "对不起",
+    "pinyin": "duìbuqǐ"
+  },
+  {
+    "id": 4,
+    "text": "再见",
+    "pinyin": "zàijiàn"
+  },
+  {
+    "id": 5,
+    "text": "早上好",
+    "pinyin": "zǎoshanghǎo"
+  },
+  {
+    "id": 6,
+    "text": "晚上好",
+    "pinyin": "wǎnshanghǎo"
+  },
+  {
+    "id": 7,
+    "text": "我爱你",
+    "pinyin": "wǒàinǐ"
+  },
+  {
+    "id": 8,
+    "text": "吃饭",
+    "pinyin": "chīfàn"
+  },
+  {
+    "id": 9,
+    "text": "喝水",
+    "pinyin": "hēshuǐ"
+  },
+  {
+    "id": 10,
+    "text": "学习",
+    "pinyin": "xuéxí"
+  },
+  {
+    "id": 11,
+    "text": "工作",
+    "pinyin": "gōngzuò"
+  },
+  {
+    "id": 12,
+    "text": "朋友",
+    "pinyin": "péngyou"
+  },
+  {
+    "id": 13,
+    "text": "家人",
+    "pinyin": "jiārén"
+  },
+  {
+    "id": 14,
+    "text": "学校",
+    "pinyin": "xuéxiào"
+  },
+  {
+    "id": 15,
+    "text": "医院",
+    "pinyin": "yīyuàn"
+  },
+  {
+    "id": 16,
+    "text": "商店",
+    "pinyin": "shāngdiàn"
+  },
+  {
+    "id": 17,
+    "text": "公交车",
+    "pinyin": "gōngjiāochē"
+  },
+  {
+    "id": 18,
+    "text": "自行车",
+    "pinyin": "zìxíngchē"
+  },
+  {
+    "id": 19,
+    "text": "苹果",
+    "pinyin": "píngguǒ"
+  },
+  {
+    "id": 20,
+    "text": "香蕉",
+    "pinyin": "xiāngjiāo"
+  },
+  {
+    "id": 21,
+    "text": "米饭",
+    "pinyin": "mǐfàn"
+  },
+  {
+    "id": 22,
+    "text": "面条",
+    "pinyin": "miàntiáo"
+  },
+  {
+    "id": 23,
+    "text": "中国",
+    "pinyin": "zhōngguó"
+  },
+  {
+    "id": 24,
+    "text": "北京",
+    "pinyin": "běijīng"
+  },
+  {
+    "id": 25,
+    "text": "上海",
+    "pinyin": "shànghǎi"
+  },
+  {
+    "id": 26,
+    "text": "天气",
+    "pinyin": "tiānqì"
+  },
+  {
+    "id": 27,
+    "text": "下雨",
+    "pinyin": "xiàyǔ"
+  },
+  {
+    "id": 28,
+    "text": "太阳",
+    "pinyin": "tàiyáng"
+  },
+  {
+    "id": 29,
+    "text": "月亮",
+    "pinyin": "yuèliang"
+  },
+  {
+    "id": 30,
+    "text": "星星",
+    "pinyin": "xīngxing"
+  },
+  {
+    "id": 31,
+    "text": "红色",
+    "pinyin": "hóngsè"
+  },
+  {
+    "id": 32,
+    "text": "蓝色",
+    "pinyin": "lánsè"
+  },
+  {
+    "id": 33,
+    "text": "绿色",
+    "pinyin": "lǜsè"
+  },
+  {
+    "id": 34,
+    "text": "黄色",
+    "pinyin": "huángsè"
+  },
+  {
+    "id": 35,
+    "text": "白色",
+    "pinyin": "báisè"
+  },
+  {
+    "id": 36,
+    "text": "黑色",
+    "pinyin": "hēisè"
+  },
+  {
+    "id": 37,
+    "text": "今天",
+    "pinyin": "jīntiān"
+  },
+  {
+    "id": 38,
+    "text": "明天",
+    "pinyin": "míngtiān"
+  },
+  {
+    "id": 39,
+    "text": "昨天",
+    "pinyin": "zuótiān"
+  },
+  {
+    "id": 40,
+    "text": "星期",
+    "pinyin": "xīngqī"
+  },
+  {
+    "id": 41,
+    "text": "月份",
+    "pinyin": "yuèfèn"
+  },
+  {
+    "id": 42,
+    "text": "年份",
+    "pinyin": "niánfèn"
+  },
+  {
+    "id": 43,
+    "text": "小时",
+    "pinyin": "xiǎoshí"
+  },
+  {
+    "id": 44,
+    "text": "分钟",
+    "pinyin": "fēnzhōng"
+  },
+  {
+    "id": 45,
+    "text": "秒钟",
+    "pinyin": "miǎozhōng"
+  },
+  {
+    "id": 46,
+    "text": "看书",
+    "pinyin": "kànshū"
+  },
+  {
+    "id": 47,
+    "text": "写字",
+    "pinyin": "xiězì"
+  },
+  {
+    "id": 48,
+    "text": "听音乐",
+    "pinyin": "tīngyīnyuè"
+  },
+  {
+    "id": 49,
+    "text": "看电影",
+    "pinyin": "kàndiànyǐng"
+  },
+  {
+    "id": 50,
+    "text": "玩游戏",
+    "pinyin": "wányóuxì"
+  },
+  {
+    "id": 51,
+    "text": "你",
+    "pinyin": "nǐ"
+  },
+  {
+    "id": 52,
+    "text": "好",
+    "pinyin": "hǎo"
+  },
+  {
+    "id": 53,
+    "text": "我",
+    "pinyin": "wǒ"
+  },
+  {
+    "id": 54,
+    "text": "是",
+    "pinyin": "shì"
+  },
+  {
+    "id": 55,
+    "text": "的",
+    "pinyin": "de"
+  },
+  {
+    "id": 56,
+    "text": "在",
+    "pinyin": "zài"
+  },
+  {
+    "id": 57,
+    "text": "有",
+    "pinyin": "yǒu"
+  },
+  {
+    "id": 58,
+    "text": "不",
+    "pinyin": "bù"
+  },
+  {
+    "id": 59,
+    "text": "了",
+    "pinyin": "le"
+  },
+  {
+    "id": 60,
+    "text": "人",
+    "pinyin": "rén"
+  },
+  {
+    "id": 61,
+    "text": "他",
+    "pinyin": "tā"
+  },
+  {
+    "id": 62,
+    "text": "这",
+    "pinyin": "zhè"
+  },
+  {
+    "id": 63,
+    "text": "个",
+    "pinyin": "gè"
+  },
+  {
+    "id": 64,
+    "text": "上",
+    "pinyin": "shàng"
+  },
+  {
+    "id": 65,
+    "text": "来",
+    "pinyin": "lái"
+  },
+  {
+    "id": 66,
+    "text": "到",
+    "pinyin": "dào"
+  },
+  {
+    "id": 67,
+    "text": "时",
+    "pinyin": "shí"
+  },
+  {
+    "id": 68,
+    "text": "大",
+    "pinyin": "dà"
+  },
+  {
+    "id": 69,
+    "text": "地",
+    "pinyin": "dì"
+  },
+  {
+    "id": 70,
+    "text": "为",
+    "pinyin": "wèi"
+  },
+  {
+    "id": 71,
+    "text": "子",
+    "pinyin": "zǐ"
+  },
+  {
+    "id": 72,
+    "text": "中",
+    "pinyin": "zhōng"
+  },
+  {
+    "id": 73,
+    "text": "说",
+    "pinyin": "shuō"
+  },
+  {
+    "id": 74,
+    "text": "生",
+    "pinyin": "shēng"
+  },
+  {
+    "id": 75,
+    "text": "国",
+    "pinyin": "guó"
+  },
+  {
+    "id": 76,
+    "text": "年",
+    "pinyin": "nián"
+  },
+  {
+    "id": 77,
+    "text": "着",
+    "pinyin": "zhe"
+  },
+  {
+    "id": 78,
+    "text": "就",
+    "pinyin": "jiù"
+  },
+  {
+    "id": 79,
+    "text": "那",
+    "pinyin": "nà"
+  },
+  {
+    "id": 80,
+    "text": "和",
+    "pinyin": "hé"
+  },
+  {
+    "id": 81,
+    "text": "要",
+    "pinyin": "yào"
+  },
+  {
+    "id": 82,
+    "text": "她",
+    "pinyin": "tā"
+  },
+  {
+    "id": 83,
+    "text": "出",
+    "pinyin": "chū"
+  },
+  {
+    "id": 84,
+    "text": "也",
+    "pinyin": "yě"
+  },
+  {
+    "id": 85,
+    "text": "得",
+    "pinyin": "de"
+  },
+  {
+    "id": 86,
+    "text": "里",
+    "pinyin": "lǐ"
+  },
+  {
+    "id": 87,
+    "text": "后",
+    "pinyin": "hòu"
+  },
+  {
+    "id": 88,
+    "text": "自",
+    "pinyin": "zì"
+  },
+  {
+    "id": 89,
+    "text": "以",
+    "pinyin": "yǐ"
+  },
+  {
+    "id": 90,
+    "text": "会",
+    "pinyin": "huì"
+  },
+  {
+    "id": 91,
+    "text": "家",
+    "pinyin": "jiā"
+  },
+  {
+    "id": 92,
+    "text": "可",
+    "pinyin": "kě"
+  },
+  {
+    "id": 93,
+    "text": "下",
+    "pinyin": "xià"
+  },
+  {
+    "id": 94,
+    "text": "而",
+    "pinyin": "ér"
+  },
+  {
+    "id": 95,
+    "text": "过",
+    "pinyin": "guò"
+  },
+  {
+    "id": 96,
+    "text": "天",
+    "pinyin": "tiān"
+  },
+  {
+    "id": 97,
+    "text": "去",
+    "pinyin": "qù"
+  },
+  {
+    "id": 98,
+    "text": "能",
+    "pinyin": "néng"
+  },
+  {
+    "id": 99,
+    "text": "对",
+    "pinyin": "duì"
+  },
+  {
+    "id": 100,
+    "text": "爸爸",
+    "pinyin": "bàba"
+  },
+  {
+    "id": 101,
+    "text": "妈妈",
+    "pinyin": "māma"
+  },
+  {
+    "id": 102,
+    "text": "爷爷",
+    "pinyin": "yéye"
+  },
+  {
+    "id": 103,
+    "text": "奶奶",
+    "pinyin": "nǎinai"
+  },
+  {
+    "id": 104,
+    "text": "老师",
+    "pinyin": "lǎoshī"
+  },
+  {
+    "id": 105,
+    "text": "学生",
+    "pinyin": "xuésheng"
+  },
+  {
+    "id": 106,
+    "text": "同学",
+    "pinyin": "tóngxué"
+  },
+  {
+    "id": 107,
+    "text": "教室",
+    "pinyin": "jiàoshì"
+  },
+  {
+    "id": 108,
+    "text": "黑板",
+    "pinyin": "hēibǎn"
+  },
+  {
+    "id": 109,
+    "text": "书本",
+    "pinyin": "shūběn"
+  },
+  {
+    "id": 110,
+    "text": "铅笔",
+    "pinyin": "qiānbǐ"
+  },
+  {
+    "id": 111,
+    "text": "橡皮",
+    "pinyin": "xiàngpí"
+  },
+  {
+    "id": 112,
+    "text": "书包",
+    "pinyin": "shūbāo"
+  },
+  {
+    "id": 113,
+    "text": "桌子",
+    "pinyin": "zhuōzi"
+  },
+  {
+    "id": 114,
+    "text": "椅子",
+    "pinyin": "yǐzi"
+  },
+  {
+    "id": 115,
+    "text": "窗户",
+    "pinyin": "chuānghu"
+  },
+  {
+    "id": 116,
+    "text": "电脑",
+    "pinyin": "diànnǎo"
+  },
+  {
+    "id": 117,
+    "text": "手机",
+    "pinyin": "shǒujī"
+  },
+  {
+    "id": 118,
+    "text": "汽车",
+    "pinyin": "qìchē"
+  },
+  {
+    "id": 119,
+    "text": "飞机",
+    "pinyin": "fēijī"
+  },
+  {
+    "id": 120,
+    "text": "火车",
+    "pinyin": "huǒchē"
+  },
+  {
+    "id": 121,
+    "text": "走路",
+    "pinyin": "zǒulù"
+  },
+  {
+    "id": 122,
+    "text": "跑步",
+    "pinyin": "pǎobù"
+  },
+  {
+    "id": 123,
+    "text": "游泳",
+    "pinyin": "yóuyǒng"
+  },
+  {
+    "id": 124,
+    "text": "跳舞",
+    "pinyin": "tiàowǔ"
+  },
+  {
+    "id": 125,
+    "text": "唱歌",
+    "pinyin": "chànggē"
+  },
+  {
+    "id": 126,
+    "text": "画画",
+    "pinyin": "huàhuà"
+  },
+  {
+    "id": 127,
+    "text": "读书",
+    "pinyin": "dúshū"
+  },
+  {
+    "id": 128,
+    "text": "睡觉",
+    "pinyin": "shuìjiào"
+  },
+  {
+    "id": 129,
+    "text": "起床",
+    "pinyin": "qǐchuáng"
+  },
+  {
+    "id": 130,
+    "text": "刷牙",
+    "pinyin": "shuāyá"
+  },
+  {
+    "id": 131,
+    "text": "洗脸",
+    "pinyin": "xǐliǎn"
+  },
+  {
+    "id": 132,
+    "text": "洗手",
+    "pinyin": "xǐshǒu"
+  },
+  {
+    "id": 133,
+    "text": "洗澡",
+    "pinyin": "xǐzǎo"
+  },
+  {
+    "id": 134,
+    "text": "鞋子",
+    "pinyin": "xiézi"
+  },
+  {
+    "id": 135,
+    "text": "帽子",
+    "pinyin": "màozi"
+  },
+  {
+    "id": 136,
+    "text": "衣服",
+    "pinyin": "yīfu"
+  },
+  {
+    "id": 137,
+    "text": "裤子",
+    "pinyin": "kùzi"
+  },
+  {
+    "id": 138,
+    "text": "裙子",
+    "pinyin": "qúnzi"
+  },
+  {
+    "id": 139,
+    "text": "袜子",
+    "pinyin": "wàzi"
+  },
+  {
+    "id": 140,
+    "text": "手套",
+    "pinyin": "shǒutào"
+  },
+  {
+    "id": 141,
+    "text": "围巾",
+    "pinyin": "wéijīn"
+  },
+  {
+    "id": 142,
+    "text": "春天",
+    "pinyin": "chūntiān"
+  },
+  {
+    "id": 143,
+    "text": "夏天",
+    "pinyin": "xiàtiān"
+  },
+  {
+    "id": 144,
+    "text": "秋天",
+    "pinyin": "qiūtiān"
+  },
+  {
+    "id": 145,
+    "text": "冬天",
+    "pinyin": "dōngtiān"
+  },
+  {
+    "id": 146,
+    "text": "早晨",
+    "pinyin": "zǎochen"
+  },
+  {
+    "id": 147,
+    "text": "中午",
+    "pinyin": "zhōngwǔ"
+  },
+  {
+    "id": 148,
+    "text": "下午",
+    "pinyin": "xiàwǔ"
+  },
+  {
+    "id": 149,
+    "text": "晚上",
+    "pinyin": "wǎnshang"
+  },
+  {
+    "id": 150,
+    "text": "夜里",
+    "pinyin": "yèli"
+  },
+  {
+    "id": 151,
+    "text": "水果",
+    "pinyin": "shuǐguǒ"
+  },
+  {
+    "id": 152,
+    "text": "蔬菜",
+    "pinyin": "shūcài"
+  },
+  {
+    "id": 153,
+    "text": "饺子",
+    "pinyin": "jiǎozi"
+  },
+  {
+    "id": 154,
+    "text": "包子",
+    "pinyin": "bāozi"
+  },
+  {
+    "id": 155,
+    "text": "馒头",
+    "pinyin": "mántou"
+  },
+  {
+    "id": 156,
+    "text": "汤",
+    "pinyin": "tāng"
+  },
+  {
+    "id": 157,
+    "text": "牛奶",
+    "pinyin": "niúnǎi"
+  },
+  {
+    "id": 158,
+    "text": "鸡蛋",
+    "pinyin": "jīdàn"
+  },
+  {
+    "id": 159,
+    "text": "面包",
+    "pinyin": "miànbāo"
+  },
+  {
+    "id": 160,
+    "text": "蛋糕",
+    "pinyin": "dàngāo"
+  },
+  {
+    "id": 161,
+    "text": "糖果",
+    "pinyin": "tángguǒ"
+  },
+  {
+    "id": 162,
+    "text": "饼干",
+    "pinyin": "bǐnggān"
+  },
+  {
+    "id": 163,
+    "text": "冰淇淋",
+    "pinyin": "bīngqílín"
+  },
+  {
+    "id": 164,
+    "text": "动物",
+    "pinyin": "dòngwù"
+  },
+  {
+    "id": 165,
+    "text": "植物",
+    "pinyin": "zhíwù"
+  },
+  {
+    "id": 166,
+    "text": "花朵",
+    "pinyin": "huāduǒ"
+  },
+  {
+    "id": 167,
+    "text": "叶子",
+    "pinyin": "yèzi"
+  },
+  {
+    "id": 168,
+    "text": "树枝",
+    "pinyin": "shùzhī"
+  },
+  {
+    "id": 169,
+    "text": "草地",
+    "pinyin": "cǎodì"
+  },
+  {
+    "id": 170,
+    "text": "森林",
+    "pinyin": "sēnlín"
+  },
+  {
+    "id": 171,
+    "text": "河流",
+    "pinyin": "héliú"
+  },
+  {
+    "id": 172,
+    "text": "湖泊",
+    "pinyin": "húpō"
+  },
+  {
+    "id": 173,
+    "text": "海洋",
+    "pinyin": "hǎiyáng"
+  },
+  {
+    "id": 174,
+    "text": "山峰",
+    "pinyin": "shānfēng"
+  },
+  {
+    "id": 175,
+    "text": "山谷",
+    "pinyin": "shāngǔ"
+  },
+  {
+    "id": 176,
+    "text": "城市",
+    "pinyin": "chéngshì"
+  },
+  {
+    "id": 177,
+    "text": "乡村",
+    "pinyin": "xiāngcūn"
+  },
+  {
+    "id": 178,
+    "text": "公园",
+    "pinyin": "gōngyuán"
+  },
+  {
+    "id": 179,
+    "text": "广场",
+    "pinyin": "guǎngchǎng"
+  },
+  {
+    "id": 180,
+    "text": "街道",
+    "pinyin": "jiēdào"
+  },
+  {
+    "id": 181,
+    "text": "房子",
+    "pinyin": "fángzi"
+  },
+  {
+    "id": 182,
+    "text": "房间",
+    "pinyin": "fángjiān"
+  },
+  {
+    "id": 183,
+    "text": "厨房",
+    "pinyin": "chúfáng"
+  },
+  {
+    "id": 184,
+    "text": "卧室",
+    "pinyin": "wòshì"
+  },
+  {
+    "id": 185,
+    "text": "客厅",
+    "pinyin": "kètīng"
+  },
+  {
+    "id": 186,
+    "text": "厕所",
+    "pinyin": "cèsuǒ"
+  },
+  {
+    "id": 187,
+    "text": "阳台",
+    "pinyin": "yángtái"
+  },
+  {
+    "id": 188,
+    "text": "超市",
+    "pinyin": "chāoshì"
+  },
+  {
+    "id": 189,
+    "text": "银行",
+    "pinyin": "yínháng"
+  },
+  {
+    "id": 190,
+    "text": "邮局",
+    "pinyin": "yóujú"
+  },
+  {
+    "id": 191,
+    "text": "图书馆",
+    "pinyin": "túshūguǎn"
+  },
+  {
+    "id": 192,
+    "text": "博物馆",
+    "pinyin": "bówùguǎn"
+  },
+  {
+    "id": 193,
+    "text": "电影院",
+    "pinyin": "diànyǐngyuàn"
+  },
+  {
+    "id": 194,
+    "text": "体育馆",
+    "pinyin": "tǐyùguǎn"
+  },
+  {
+    "id": 195,
+    "text": "游乐场",
+    "pinyin": "yóulèchǎng"
+  },
+  {
+    "id": 196,
+    "text": "动物园",
+    "pinyin": "dòngwùyuán"
+  },
+  {
+    "id": 197,
+    "text": "植物园",
+    "pinyin": "zhíwùyuán"
+  },
+  {
+    "id": 198,
+    "text": "一",
+    "pinyin": "yī"
+  },
+  {
+    "id": 199,
+    "text": "二",
+    "pinyin": "èr"
+  },
+  {
+    "id": 200,
+    "text": "三",
+    "pinyin": "sān"
+  },
+  {
+    "id": 201,
+    "text": "四",
+    "pinyin": "sì"
+  },
+  {
+    "id": 202,
+    "text": "五",
+    "pinyin": "wǔ"
+  },
+  {
+    "id": 203,
+    "text": "六",
+    "pinyin": "liù"
+  },
+  {
+    "id": 204,
+    "text": "七",
+    "pinyin": "qī"
+  },
+  {
+    "id": 205,
+    "text": "八",
+    "pinyin": "bā"
+  },
+  {
+    "id": 206,
+    "text": "九",
+    "pinyin": "jiǔ"
+  },
+  {
+    "id": 207,
+    "text": "十",
+    "pinyin": "shí"
+  },
+  {
+    "id": 208,
+    "text": "百",
+    "pinyin": "bǎi"
+  },
+  {
+    "id": 209,
+    "text": "千",
+    "pinyin": "qiān"
+  },
+  {
+    "id": 210,
+    "text": "万",
+    "pinyin": "wàn"
+  },
+  {
+    "id": 211,
+    "text": "元",
+    "pinyin": "yuán"
+  },
+  {
+    "id": 212,
+    "text": "角",
+    "pinyin": "jiǎo"
+  },
+  {
+    "id": 213,
+    "text": "分",
+    "pinyin": "fēn"
+  },
+  {
+    "id": 214,
+    "text": "块",
+    "pinyin": "kuài"
+  },
+  {
+    "id": 215,
+    "text": "只",
+    "pinyin": "zhī"
+  },
+  {
+    "id": 216,
+    "text": "条",
+    "pinyin": "tiáo"
+  },
+  {
+    "id": 217,
+    "text": "张",
+    "pinyin": "zhāng"
+  },
+  {
+    "id": 218,
+    "text": "本",
+    "pinyin": "běn"
+  },
+  {
+    "id": 219,
+    "text": "支",
+    "pinyin": "zhī"
+  },
+  {
+    "id": 220,
+    "text": "把",
+    "pinyin": "bǎ"
+  },
+  {
+    "id": 221,
+    "text": "件",
+    "pinyin": "jiàn"
+  },
+  {
+    "id": 222,
+    "text": "双",
+    "pinyin": "shuāng"
+  },
+  {
+    "id": 223,
+    "text": "套",
+    "pinyin": "tào"
+  },
+  {
+    "id": 224,
+    "text": "棵",
+    "pinyin": "kē"
+  },
+  {
+    "id": 225,
+    "text": "片",
+    "pinyin": "piàn"
+  },
+  {
+    "id": 226,
+    "text": "朵",
+    "pinyin": "duǒ"
+  },
+  {
+    "id": 227,
+    "text": "杯",
+    "pinyin": "bēi"
+  },
+  {
+    "id": 228,
+    "text": "碗",
+    "pinyin": "wǎn"
+  },
+  {
+    "id": 229,
+    "text": "盘",
+    "pinyin": "pán"
+  },
+  {
+    "id": 230,
+    "text": "瓶",
+    "pinyin": "píng"
+  },
+  {
+    "id": 231,
+    "text": "盒",
+    "pinyin": "hé"
+  },
+  {
+    "id": 232,
+    "text": "包",
+    "pinyin": "bāo"
+  },
+  {
+    "id": 233,
+    "text": "袋",
+    "pinyin": "dài"
+  },
+  {
+    "id": 234,
+    "text": "箱",
+    "pinyin": "xiāng"
+  },
+  {
+    "id": 235,
+    "text": "车",
+    "pinyin": "chē"
+  },
+  {
+    "id": 236,
+    "text": "船",
+    "pinyin": "chuán"
+  },
+  {
+    "id": 237,
+    "text": "桥",
+    "pinyin": "qiáo"
+  },
+  {
+    "id": 238,
+    "text": "路",
+    "pinyin": "lù"
+  },
+  {
+    "id": 239,
+    "text": "街",
+    "pinyin": "jiē"
+  },
+  {
+    "id": 240,
+    "text": "巷",
+    "pinyin": "xiàng"
+  },
+  {
+    "id": 241,
+    "text": "村",
+    "pinyin": "cūn"
+  },
+  {
+    "id": 242,
+    "text": "镇",
+    "pinyin": "zhèn"
+  },
+  {
+    "id": 243,
+    "text": "县",
+    "pinyin": "xiàn"
+  },
+  {
+    "id": 244,
+    "text": "市",
+    "pinyin": "shì"
+  },
+  {
+    "id": 245,
+    "text": "省",
+    "pinyin": "shěng"
+  },
+  {
+    "id": 246,
+    "text": "区",
+    "pinyin": "qū"
+  },
+  {
+    "id": 247,
+    "text": "乡",
+    "pinyin": "xiāng"
+  },
+  {
+    "id": 248,
+    "text": "头",
+    "pinyin": "tóu"
+  },
+  {
+    "id": 249,
+    "text": "脸",
+    "pinyin": "liǎn"
+  },
+  {
+    "id": 250,
+    "text": "眼睛",
+    "pinyin": "yǎnjing"
+  },
+  {
+    "id": 251,
+    "text": "鼻子",
+    "pinyin": "bízi"
+  },
+  {
+    "id": 252,
+    "text": "嘴巴",
+    "pinyin": "zuǐba"
+  },
+  {
+    "id": 253,
+    "text": "耳朵",
+    "pinyin": "ěrduo"
+  },
+  {
+    "id": 254,
+    "text": "脖子",
+    "pinyin": "bózi"
+  },
+  {
+    "id": 255,
+    "text": "肩膀",
+    "pinyin": "jiānbǎng"
+  },
+  {
+    "id": 256,
+    "text": "手臂",
+    "pinyin": "shǒubì"
+  },
+  {
+    "id": 257,
+    "text": "手",
+    "pinyin": "shǒu"
+  },
+  {
+    "id": 258,
+    "text": "手指",
+    "pinyin": "shǒuzhǐ"
+  },
+  {
+    "id": 259,
+    "text": "腿",
+    "pinyin": "tuǐ"
+  },
+  {
+    "id": 260,
+    "text": "脚",
+    "pinyin": "jiǎo"
+  },
+  {
+    "id": 261,
+    "text": "脚趾",
+    "pinyin": "jiǎozhǐ"
+  },
+  {
+    "id": 262,
+    "text": "身体",
+    "pinyin": "shēntǐ"
+  },
+  {
+    "id": 263,
+    "text": "肚子",
+    "pinyin": "dùzi"
+  },
+  {
+    "id": 264,
+    "text": "背",
+    "pinyin": "bèi"
+  },
+  {
+    "id": 265,
+    "text": "腰",
+    "pinyin": "yāo"
+  },
+  {
+    "id": 266,
+    "text": "胸",
+    "pinyin": "xiōng"
+  },
+  {
+    "id": 267,
+    "text": "心",
+    "pinyin": "xīn"
+  },
+  {
+    "id": 268,
+    "text": "肝",
+    "pinyin": "gān"
+  },
+  {
+    "id": 269,
+    "text": "肺",
+    "pinyin": "fèi"
+  },
+  {
+    "id": 270,
+    "text": "胃",
+    "pinyin": "wèi"
+  },
+  {
+    "id": 271,
+    "text": "肠",
+    "pinyin": "cháng"
+  },
+  {
+    "id": 272,
+    "text": "看",
+    "pinyin": "kàn"
+  },
+  {
+    "id": 273,
+    "text": "听",
+    "pinyin": "tīng"
+  },
+  {
+    "id": 274,
+    "text": "讲",
+    "pinyin": "jiǎng"
+  },
+  {
+    "id": 275,
+    "text": "读",
+    "pinyin": "dú"
+  },
+  {
+    "id": 276,
+    "text": "写",
+    "pinyin": "xiě"
+  },
+  {
+    "id": 277,
+    "text": "画",
+    "pinyin": "huà"
+  },
+  {
+    "id": 278,
+    "text": "唱",
+    "pinyin": "chàng"
+  },
+  {
+    "id": 279,
+    "text": "跳",
+    "pinyin": "tiào"
+  },
+  {
+    "id": 280,
+    "text": "跑",
+    "pinyin": "pǎo"
+  },
+  {
+    "id": 281,
+    "text": "走",
+    "pinyin": "zǒu"
+  },
+  {
+    "id": 282,
+    "text": "站",
+    "pinyin": "zhàn"
+  },
+  {
+    "id": 283,
+    "text": "坐",
+    "pinyin": "zuò"
+  },
+  {
+    "id": 284,
+    "text": "躺",
+    "pinyin": "tǎng"
+  },
+  {
+    "id": 285,
+    "text": "睡",
+    "pinyin": "shuì"
+  },
+  {
+    "id": 286,
+    "text": "醒",
+    "pinyin": "xǐng"
+  },
+  {
+    "id": 287,
+    "text": "吃",
+    "pinyin": "chī"
+  },
+  {
+    "id": 288,
+    "text": "喝",
+    "pinyin": "hē"
+  },
+  {
+    "id": 289,
+    "text": "咬",
+    "pinyin": "yǎo"
+  },
+  {
+    "id": 290,
+    "text": "嚼",
+    "pinyin": "jiáo"
+  },
+  {
+    "id": 291,
+    "text": "咽",
+    "pinyin": "yàn"
+  },
+  {
+    "id": 292,
+    "text": "拿",
+    "pinyin": "ná"
+  },
+  {
+    "id": 293,
+    "text": "抓",
+    "pinyin": "zhuā"
+  },
+  {
+    "id": 294,
+    "text": "握",
+    "pinyin": "wò"
+  },
+  {
+    "id": 295,
+    "text": "放",
+    "pinyin": "fàng"
+  },
+  {
+    "id": 296,
+    "text": "扔",
+    "pinyin": "rēng"
+  },
+  {
+    "id": 297,
+    "text": "丢",
+    "pinyin": "diū"
+  },
+  {
+    "id": 298,
+    "text": "捡",
+    "pinyin": "jiǎn"
+  },
+  {
+    "id": 299,
+    "text": "拾",
+    "pinyin": "shí"
+  },
+  {
+    "id": 300,
+    "text": "推",
+    "pinyin": "tuī"
+  },
+  {
+    "id": 301,
+    "text": "拉",
+    "pinyin": "lā"
+  },
+  {
+    "id": 302,
+    "text": "拖",
+    "pinyin": "tuō"
+  },
+  {
+    "id": 303,
+    "text": "搬",
+    "pinyin": "bān"
+  },
+  {
+    "id": 304,
+    "text": "抬",
+    "pinyin": "tái"
+  },
+  {
+    "id": 305,
+    "text": "举",
+    "pinyin": "jǔ"
+  },
+  {
+    "id": 306,
+    "text": "抱",
+    "pinyin": "bào"
+  },
+  {
+    "id": 307,
+    "text": "扛",
+    "pinyin": "káng"
+  },
+  {
+    "id": 308,
+    "text": "提",
+    "pinyin": "tí"
+  },
+  {
+    "id": 309,
+    "text": "拎",
+    "pinyin": "līn"
+  },
+  {
+    "id": 310,
+    "text": "打",
+    "pinyin": "dǎ"
+  },
+  {
+    "id": 311,
+    "text": "拍",
+    "pinyin": "pāi"
+  },
+  {
+    "id": 312,
+    "text": "敲",
+    "pinyin": "qiāo"
+  },
+  {
+    "id": 313,
+    "text": "踢",
+    "pinyin": "tī"
+  },
+  {
+    "id": 314,
+    "text": "踩",
+    "pinyin": "cǎi"
+  },
+  {
+    "id": 315,
+    "text": "踏",
+    "pinyin": "tà"
+  },
+  {
+    "id": 316,
+    "text": "穿",
+    "pinyin": "chuān"
+  },
+  {
+    "id": 317,
+    "text": "戴",
+    "pinyin": "dài"
+  },
+  {
+    "id": 318,
+    "text": "脱",
+    "pinyin": "tuō"
+  },
+  {
+    "id": 319,
+    "text": "换",
+    "pinyin": "huàn"
+  },
+  {
+    "id": 320,
+    "text": "洗",
+    "pinyin": "xǐ"
+  },
+  {
+    "id": 321,
+    "text": "刷",
+    "pinyin": "shuā"
+  },
+  {
+    "id": 322,
+    "text": "擦",
+    "pinyin": "cā"
+  },
+  {
+    "id": 323,
+    "text": "抹",
+    "pinyin": "mǒ"
+  },
+  {
+    "id": 324,
+    "text": "扫",
+    "pinyin": "sǎo"
+  },
+  {
+    "id": 325,
+    "text": "梳",
+    "pinyin": "shū"
+  },
+  {
+    "id": 326,
+    "text": "理",
+    "pinyin": "lǐ"
+  },
+  {
+    "id": 327,
+    "text": "剪",
+    "pinyin": "jiǎn"
+  },
+  {
+    "id": 328,
+    "text": "修",
+    "pinyin": "xiū"
+  },
+  {
+    "id": 329,
+    "text": "做",
+    "pinyin": "zuò"
+  },
+  {
+    "id": 330,
+    "text": "干",
+    "pinyin": "gàn"
+  },
+  {
+    "id": 331,
+    "text": "办",
+    "pinyin": "bàn"
+  },
+  {
+    "id": 332,
+    "text": "搞",
+    "pinyin": "gǎo"
+  },
+  {
+    "id": 333,
+    "text": "弄",
+    "pinyin": "nòng"
+  },
+  {
+    "id": 334,
+    "text": "完",
+    "pinyin": "wán"
+  },
+  {
+    "id": 335,
+    "text": "成",
+    "pinyin": "chéng"
+  },
+  {
+    "id": 336,
+    "text": "造",
+    "pinyin": "zào"
+  },
+  {
+    "id": 337,
+    "text": "建",
+    "pinyin": "jiàn"
+  },
+  {
+    "id": 338,
+    "text": "补",
+    "pinyin": "bǔ"
+  },
+  {
+    "id": 339,
+    "text": "改",
+    "pinyin": "gǎi"
+  },
+  {
+    "id": 340,
+    "text": "变",
+    "pinyin": "biàn"
+  },
+  {
+    "id": 341,
+    "text": "想",
+    "pinyin": "xiǎng"
+  },
+  {
+    "id": 342,
+    "text": "思",
+    "pinyin": "sī"
+  },
+  {
+    "id": 343,
+    "text": "考",
+    "pinyin": "kǎo"
+  },
+  {
+    "id": 344,
+    "text": "虑",
+    "pinyin": "lǜ"
+  },
+  {
+    "id": 345,
+    "text": "记",
+    "pinyin": "jì"
+  },
+  {
+    "id": 346,
+    "text": "忆",
+    "pinyin": "yì"
+  },
+  {
+    "id": 347,
+    "text": "忘",
+    "pinyin": "wàng"
+  },
+  {
+    "id": 348,
+    "text": "学",
+    "pinyin": "xué"
+  },
+  {
+    "id": 349,
+    "text": "习",
+    "pinyin": "xí"
+  },
+  {
+    "id": 350,
+    "text": "练",
+    "pinyin": "liàn"
+  },
+  {
+    "id": 351,
+    "text": "打球",
+    "pinyin": "dǎqiú"
+  },
+  {
+    "id": 352,
+    "text": "踢球",
+    "pinyin": "tīqiú"
+  },
+  {
+    "id": 353,
+    "text": "跳绳",
+    "pinyin": "tiàoshéng"
+  },
+  {
+    "id": 354,
+    "text": "荡秋千",
+    "pinyin": "dàngqiūqiān"
+  },
+  {
+    "id": 355,
+    "text": "滑滑梯",
+    "pinyin": "huáhuátī"
+  },
+  {
+    "id": 356,
+    "text": "玩积木",
+    "pinyin": "wánjīmù"
+  },
+  {
+    "id": 357,
+    "text": "做手工",
+    "pinyin": "zuòshǒugōng"
+  },
+  {
+    "id": 358,
+    "text": "折纸",
+    "pinyin": "zhézhǐ"
+  },
+  {
+    "id": 359,
+    "text": "剪纸",
+    "pinyin": "jiǎnzhǐ"
+  },
+  {
+    "id": 360,
+    "text": "捏泥",
+    "pinyin": "niēní"
+  },
+  {
+    "id": 361,
+    "text": "涂色",
+    "pinyin": "túsè"
+  },
+  {
+    "id": 362,
+    "text": "认字",
+    "pinyin": "rènzì"
+  },
+  {
+    "id": 363,
+    "text": "背诗",
+    "pinyin": "bèishī"
+  },
+  {
+    "id": 364,
+    "text": "念书",
+    "pinyin": "niànshū"
+  },
+  {
+    "id": 365,
+    "text": "做作业",
+    "pinyin": "zuòzuòyè"
+  },
+  {
+    "id": 366,
+    "text": "考试",
+    "pinyin": "kǎoshì"
+  },
+  {
+    "id": 367,
+    "text": "上课",
+    "pinyin": "shàngkè"
+  },
+  {
+    "id": 368,
+    "text": "下课",
+    "pinyin": "xiàkè"
+  },
+  {
+    "id": 369,
+    "text": "休息",
+    "pinyin": "xiūxi"
+  },
+  {
+    "id": 370,
+    "text": "游戏",
+    "pinyin": "yóuxì"
+  },
+  {
+    "id": 371,
+    "text": "玩具",
+    "pinyin": "wánjù"
+  },
+  {
+    "id": 372,
+    "text": "娃娃",
+    "pinyin": "wáwa"
+  },
+  {
+    "id": 373,
+    "text": "积木",
+    "pinyin": "jīmù"
+  },
+  {
+    "id": 374,
+    "text": "拼图",
+    "pinyin": "pīntú"
+  },
+  {
+    "id": 375,
+    "text": "气球",
+    "pinyin": "qìqiú"
+  },
+  {
+    "id": 376,
+    "text": "风筝",
+    "pinyin": "fēngzheng"
+  },
+  {
+    "id": 377,
+    "text": "毽子",
+    "pinyin": "jiànzi"
+  },
+  {
+    "id": 378,
+    "text": "陀螺",
+    "pinyin": "tuóluó"
+  },
+  {
+    "id": 379,
+    "text": "弹珠",
+    "pinyin": "tánzhū"
+  },
+  {
+    "id": 380,
+    "text": "沙包",
+    "pinyin": "shābāo"
+  },
+  {
+    "id": 381,
+    "text": "皮球",
+    "pinyin": "píqiú"
+  },
+  {
+    "id": 382,
+    "text": "足球",
+    "pinyin": "zúqiú"
+  },
+  {
+    "id": 383,
+    "text": "篮球",
+    "pinyin": "lánqiú"
+  },
+  {
+    "id": 384,
+    "text": "乒乓球",
+    "pinyin": "pīngpāngqiú"
+  },
+  {
+    "id": 385,
+    "text": "羽毛球",
+    "pinyin": "yǔmáoqiú"
+  },
+  {
+    "id": 386,
+    "text": "网球",
+    "pinyin": "wǎngqiú"
+  },
+  {
+    "id": 387,
+    "text": "排球",
+    "pinyin": "páiqiú"
+  },
+  {
+    "id": 388,
+    "text": "杯子",
+    "pinyin": "bēizi"
+  },
+  {
+    "id": 389,
+    "text": "盘子",
+    "pinyin": "pánzi"
+  },
+  {
+    "id": 390,
+    "text": "筷子",
+    "pinyin": "kuàizi"
+  },
+  {
+    "id": 391,
+    "text": "勺子",
+    "pinyin": "sháozi"
+  },
+  {
+    "id": 392,
+    "text": "叉子",
+    "pinyin": "chāzi"
+  },
+  {
+    "id": 393,
+    "text": "刀",
+    "pinyin": "dāo"
+  },
+  {
+    "id": 394,
+    "text": "针",
+    "pinyin": "zhēn"
+  },
+  {
+    "id": 395,
+    "text": "线",
+    "pinyin": "xiàn"
+  },
+  {
+    "id": 396,
+    "text": "绳",
+    "pinyin": "shéng"
+  },
+  {
+    "id": 397,
+    "text": "带",
+    "pinyin": "dài"
+  },
+  {
+    "id": 398,
+    "text": "链",
+    "pinyin": "liàn"
+  },
+  {
+    "id": 399,
+    "text": "环",
+    "pinyin": "huán"
+  },
+  {
+    "id": 400,
+    "text": "圈",
+    "pinyin": "quān"
+  },
+  {
+    "id": 401,
+    "text": "球",
+    "pinyin": "qiú"
+  },
+  {
+    "id": 402,
+    "text": "根",
+    "pinyin": "gēn"
+  },
+  {
+    "id": 403,
+    "text": "页",
+    "pinyin": "yè"
+  },
+  {
+    "id": 404,
+    "text": "篇",
+    "pinyin": "piān"
+  },
+  {
+    "id": 405,
+    "text": "册",
+    "pinyin": "cè"
+  },
+  {
+    "id": 406,
+    "text": "卷",
+    "pinyin": "juǎn"
+  },
+  {
+    "id": 407,
+    "text": "幅",
+    "pinyin": "fú"
+  },
+  {
+    "id": 408,
+    "text": "面",
+    "pinyin": "miàn"
+  },
+  {
+    "id": 409,
+    "text": "匹",
+    "pinyin": "pǐ"
+  },
+  {
+    "id": 410,
+    "text": "尾",
+    "pinyin": "wěi"
+  },
+  {
+    "id": 411,
+    "text": "颗",
+    "pinyin": "kē"
+  },
+  {
+    "id": 412,
+    "text": "粒",
+    "pinyin": "lì"
+  },
+  {
+    "id": 413,
+    "text": "滴",
+    "pinyin": "dī"
+  },
+  {
+    "id": 414,
+    "text": "点",
+    "pinyin": "diǎn"
+  },
+  {
+    "id": 415,
+    "text": "些",
+    "pinyin": "xiē"
+  },
+  {
+    "id": 416,
+    "text": "种",
+    "pinyin": "zhǒng"
+  },
+  {
+    "id": 417,
+    "text": "类",
+    "pinyin": "lèi"
+  },
+  {
+    "id": 418,
+    "text": "样",
+    "pinyin": "yàng"
+  },
+  {
+    "id": 419,
+    "text": "般",
+    "pinyin": "bān"
+  },
+  {
+    "id": 420,
+    "text": "型",
+    "pinyin": "xíng"
+  },
+  {
+    "id": 421,
+    "text": "式",
+    "pinyin": "shì"
+  },
+  {
+    "id": 422,
+    "text": "零",
+    "pinyin": "líng"
+  },
+  {
+    "id": 423,
+    "text": "半",
+    "pinyin": "bàn"
+  },
+  {
+    "id": 424,
+    "text": "全",
+    "pinyin": "quán"
+  },
+  {
+    "id": 425,
+    "text": "都",
+    "pinyin": "dōu"
+  },
+  {
+    "id": 426,
+    "text": "总",
+    "pinyin": "zǒng"
+  },
+  {
+    "id": 427,
+    "text": "共",
+    "pinyin": "gòng"
+  },
+  {
+    "id": 428,
+    "text": "合",
+    "pinyin": "hé"
+  },
+  {
+    "id": 429,
+    "text": "同",
+    "pinyin": "tóng"
+  },
+  {
+    "id": 430,
+    "text": "左",
+    "pinyin": "zuǒ"
+  },
+  {
+    "id": 431,
+    "text": "右",
+    "pinyin": "yòu"
+  },
+  {
+    "id": 432,
+    "text": "前",
+    "pinyin": "qián"
+  },
+  {
+    "id": 433,
+    "text": "外",
+    "pinyin": "wài"
+  },
+  {
+    "id": 434,
+    "text": "内",
+    "pinyin": "nèi"
+  },
+  {
+    "id": 435,
+    "text": "间",
+    "pinyin": "jiān"
+  },
+  {
+    "id": 436,
+    "text": "旁",
+    "pinyin": "páng"
+  },
+  {
+    "id": 437,
+    "text": "边",
+    "pinyin": "biān"
+  },
+  {
+    "id": 438,
+    "text": "顶",
+    "pinyin": "dǐng"
+  },
+  {
+    "id": 439,
+    "text": "底",
+    "pinyin": "dǐ"
+  },
+  {
+    "id": 440,
+    "text": "东",
+    "pinyin": "dōng"
+  },
+  {
+    "id": 441,
+    "text": "南",
+    "pinyin": "nán"
+  },
+  {
+    "id": 442,
+    "text": "西",
+    "pinyin": "xī"
+  },
+  {
+    "id": 443,
+    "text": "北",
+    "pinyin": "běi"
+  },
+  {
+    "id": 444,
+    "text": "东北",
+    "pinyin": "dōngběi"
+  },
+  {
+    "id": 445,
+    "text": "东南",
+    "pinyin": "dōngnán"
+  },
+  {
+    "id": 446,
+    "text": "西南",
+    "pinyin": "xīnán"
+  },
+  {
+    "id": 447,
+    "text": "西北",
+    "pinyin": "xīběi"
+  },
+  {
+    "id": 448,
+    "text": "月",
+    "pinyin": "yuè"
+  },
+  {
+    "id": 449,
+    "text": "日",
+    "pinyin": "rì"
+  },
+  {
+    "id": 450,
+    "text": "周",
+    "pinyin": "zhōu"
+  },
+  {
+    "id": 451,
+    "text": "现在",
+    "pinyin": "xiànzài"
+  },
+  {
+    "id": 452,
+    "text": "刚才",
+    "pinyin": "gāngcái"
+  },
+  {
+    "id": 453,
+    "text": "马上",
+    "pinyin": "mǎshàng"
+  },
+  {
+    "id": 454,
+    "text": "立刻",
+    "pinyin": "lìkè"
+  },
+  {
+    "id": 455,
+    "text": "立即",
+    "pinyin": "lìjí"
+  },
+  {
+    "id": 456,
+    "text": "顿时",
+    "pinyin": "dùnshí"
+  },
+  {
+    "id": 457,
+    "text": "一会儿",
+    "pinyin": "yīhuìr"
+  },
+  {
+    "id": 458,
+    "text": "一下",
+    "pinyin": "yīxià"
+  },
+  {
+    "id": 459,
+    "text": "一直",
+    "pinyin": "yīzhí"
+  },
+  {
+    "id": 460,
+    "text": "总是",
+    "pinyin": "zǒngshì"
+  },
+  {
+    "id": 461,
+    "text": "经常",
+    "pinyin": "jīngcháng"
+  },
+  {
+    "id": 462,
+    "text": "常常",
+    "pinyin": "chángcháng"
+  },
+  {
+    "id": 463,
+    "text": "往往",
+    "pinyin": "wǎngwǎng"
+  },
+  {
+    "id": 464,
+    "text": "通常",
+    "pinyin": "tōngcháng"
+  },
+  {
+    "id": 465,
+    "text": "一般",
+    "pinyin": "yībān"
+  },
+  {
+    "id": 466,
+    "text": "平常",
+    "pinyin": "píngcháng"
+  },
+  {
+    "id": 467,
+    "text": "平时",
+    "pinyin": "píngshí"
+  },
+  {
+    "id": 468,
+    "text": "日常",
+    "pinyin": "rìcháng"
+  },
+  {
+    "id": 469,
+    "text": "红",
+    "pinyin": "hóng"
+  },
+  {
+    "id": 470,
+    "text": "橙",
+    "pinyin": "chéng"
+  },
+  {
+    "id": 471,
+    "text": "黄",
+    "pinyin": "huáng"
+  },
+  {
+    "id": 472,
+    "text": "绿",
+    "pinyin": "lǜ"
+  },
+  {
+    "id": 473,
+    "text": "青",
+    "pinyin": "qīng"
+  },
+  {
+    "id": 474,
+    "text": "蓝",
+    "pinyin": "lán"
+  },
+  {
+    "id": 475,
+    "text": "紫",
+    "pinyin": "zǐ"
+  },
+  {
+    "id": 476,
+    "text": "粉",
+    "pinyin": "fěn"
+  },
+  {
+    "id": 477,
+    "text": "白",
+    "pinyin": "bái"
+  },
+  {
+    "id": 478,
+    "text": "灰",
+    "pinyin": "huī"
+  },
+  {
+    "id": 479,
+    "text": "黑",
+    "pinyin": "hēi"
+  },
+  {
+    "id": 480,
+    "text": "棕",
+    "pinyin": "zōng"
+  },
+  {
+    "id": 481,
+    "text": "银",
+    "pinyin": "yín"
+  },
+  {
+    "id": 482,
+    "text": "金",
+    "pinyin": "jīn"
+  },
+  {
+    "id": 483,
+    "text": "透明",
+    "pinyin": "tòumíng"
+  },
+  {
+    "id": 484,
+    "text": "圆",
+    "pinyin": "yuán"
+  },
+  {
+    "id": 485,
+    "text": "方",
+    "pinyin": "fāng"
+  },
+  {
+    "id": 486,
+    "text": "长",
+    "pinyin": "cháng"
+  },
+  {
+    "id": 487,
+    "text": "短",
+    "pinyin": "duǎn"
+  },
+  {
+    "id": 488,
+    "text": "高",
+    "pinyin": "gāo"
+  },
+  {
+    "id": 489,
+    "text": "低",
+    "pinyin": "dī"
+  },
+  {
+    "id": 490,
+    "text": "矮",
+    "pinyin": "ǎi"
+  },
+  {
+    "id": 491,
+    "text": "胖",
+    "pinyin": "pàng"
+  },
+  {
+    "id": 492,
+    "text": "瘦",
+    "pinyin": "shòu"
+  },
+  {
+    "id": 493,
+    "text": "厚",
+    "pinyin": "hòu"
+  },
+  {
+    "id": 494,
+    "text": "薄",
+    "pinyin": "báo"
+  },
+  {
+    "id": 495,
+    "text": "宽",
+    "pinyin": "kuān"
+  },
+  {
+    "id": 496,
+    "text": "窄",
+    "pinyin": "zhǎi"
+  },
+  {
+    "id": 497,
+    "text": "粗",
+    "pinyin": "cū"
+  },
+  {
+    "id": 498,
+    "text": "细",
+    "pinyin": "xì"
+  },
+  {
+    "id": 499,
+    "text": "小",
+    "pinyin": "xiǎo"
+  },
+  {
+    "id": 500,
+    "text": "多",
+    "pinyin": "duō"
+  },
+  {
+    "id": 501,
+    "text": "少",
+    "pinyin": "shǎo"
+  },
+  {
+    "id": 502,
+    "text": "重",
+    "pinyin": "zhòng"
+  },
+  {
+    "id": 503,
+    "text": "轻",
+    "pinyin": "qīng"
+  },
+  {
+    "id": 504,
+    "text": "深",
+    "pinyin": "shēn"
+  },
+  {
+    "id": 505,
+    "text": "浅",
+    "pinyin": "qiǎn"
+  },
+  {
+    "id": 506,
+    "text": "远",
+    "pinyin": "yuǎn"
+  },
+  {
+    "id": 507,
+    "text": "近",
+    "pinyin": "jìn"
+  },
+  {
+    "id": 508,
+    "text": "快",
+    "pinyin": "kuài"
+  },
+  {
+    "id": 509,
+    "text": "慢",
+    "pinyin": "màn"
+  },
+  {
+    "id": 510,
+    "text": "早",
+    "pinyin": "zǎo"
+  },
+  {
+    "id": 511,
+    "text": "晚",
+    "pinyin": "wǎn"
+  },
+  {
+    "id": 512,
+    "text": "新",
+    "pinyin": "xīn"
+  },
+  {
+    "id": 513,
+    "text": "旧",
+    "pinyin": "jiù"
+  },
+  {
+    "id": 514,
+    "text": "坏",
+    "pinyin": "huài"
+  },
+  {
+    "id": 515,
+    "text": "美",
+    "pinyin": "měi"
+  },
+  {
+    "id": 516,
+    "text": "丑",
+    "pinyin": "chǒu"
+  },
+  {
+    "id": 517,
+    "text": "漂亮",
+    "pinyin": "piàoliang"
+  },
+  {
+    "id": 518,
+    "text": "美丽",
+    "pinyin": "měilì"
+  },
+  {
+    "id": 519,
+    "text": "好看",
+    "pinyin": "hǎokàn"
+  },
+  {
+    "id": 520,
+    "text": "难看",
+    "pinyin": "nánkàn"
+  },
+  {
+    "id": 521,
+    "text": "脏",
+    "pinyin": "zāng"
+  },
+  {
+    "id": 522,
+    "text": "干净",
+    "pinyin": "gānjìng"
+  },
+  {
+    "id": 523,
+    "text": "整洁",
+    "pinyin": "zhěngjié"
+  },
+  {
+    "id": 524,
+    "text": "整齐",
+    "pinyin": "zhěngqí"
+  },
+  {
+    "id": 525,
+    "text": "乱",
+    "pinyin": "luàn"
+  },
+  {
+    "id": 526,
+    "text": "疼",
+    "pinyin": "téng"
+  },
+  {
+    "id": 527,
+    "text": "痛",
+    "pinyin": "tòng"
+  },
+  {
+    "id": 528,
+    "text": "痒",
+    "pinyin": "yǎng"
+  },
+  {
+    "id": 529,
+    "text": "酸",
+    "pinyin": "suān"
+  },
+  {
+    "id": 530,
+    "text": "甜",
+    "pinyin": "tián"
+  },
+  {
+    "id": 531,
+    "text": "苦",
+    "pinyin": "kǔ"
+  },
+  {
+    "id": 532,
+    "text": "辣",
+    "pinyin": "là"
+  },
+  {
+    "id": 533,
+    "text": "咸",
+    "pinyin": "xián"
+  },
+  {
+    "id": 534,
+    "text": "香",
+    "pinyin": "xiāng"
+  },
+  {
+    "id": 535,
+    "text": "臭",
+    "pinyin": "chòu"
+  },
+  {
+    "id": 536,
+    "text": "热",
+    "pinyin": "rè"
+  },
+  {
+    "id": 537,
+    "text": "冷",
+    "pinyin": "lěng"
+  },
+  {
+    "id": 538,
+    "text": "凉",
+    "pinyin": "liáng"
+  },
+  {
+    "id": 539,
+    "text": "暖",
+    "pinyin": "nuǎn"
+  },
+  {
+    "id": 540,
+    "text": "温",
+    "pinyin": "wēn"
+  },
+  {
+    "id": 541,
+    "text": "烫",
+    "pinyin": "tàng"
+  },
+  {
+    "id": 542,
+    "text": "冰",
+    "pinyin": "bīng"
+  },
+  {
+    "id": 543,
+    "text": "冻",
+    "pinyin": "dòng"
+  },
+  {
+    "id": 544,
+    "text": "高兴",
+    "pinyin": "gāoxìng"
+  },
+  {
+    "id": 545,
+    "text": "快乐",
+    "pinyin": "kuàilè"
+  },
+  {
+    "id": 546,
+    "text": "开心",
+    "pinyin": "kāixīn"
+  },
+  {
+    "id": 547,
+    "text": "愉快",
+    "pinyin": "yúkuài"
+  },
+  {
+    "id": 548,
+    "text": "兴奋",
+    "pinyin": "xīngfèn"
+  },
+  {
+    "id": 549,
+    "text": "激动",
+    "pinyin": "jīdòng"
+  },
+  {
+    "id": 550,
+    "text": "难过",
+    "pinyin": "nánguò"
+  },
+  {
+    "id": 551,
+    "text": "伤心",
+    "pinyin": "shāngxīn"
+  },
+  {
+    "id": 552,
+    "text": "痛苦",
+    "pinyin": "tòngkǔ"
+  },
+  {
+    "id": 553,
+    "text": "悲伤",
+    "pinyin": "bēishāng"
+  },
+  {
+    "id": 554,
+    "text": "失望",
+    "pinyin": "shīwàng"
+  },
+  {
+    "id": 555,
+    "text": "沮丧",
+    "pinyin": "jǔsàng"
+  },
+  {
+    "id": 556,
+    "text": "生气",
+    "pinyin": "shēngqì"
+  },
+  {
+    "id": 557,
+    "text": "愤怒",
+    "pinyin": "fènnù"
+  },
+  {
+    "id": 558,
+    "text": "恼火",
+    "pinyin": "nǎohuǒ"
+  },
+  {
+    "id": 559,
+    "text": "害怕",
+    "pinyin": "hàipà"
+  },
+  {
+    "id": 560,
+    "text": "恐惧",
+    "pinyin": "kǒngjù"
+  },
+  {
+    "id": 561,
+    "text": "担心",
+    "pinyin": "dānxīn"
+  },
+  {
+    "id": 562,
+    "text": "忧虑",
+    "pinyin": "yōulǜ"
+  },
+  {
+    "id": 563,
+    "text": "紧张",
+    "pinyin": "jǐnzhāng"
+  },
+  {
+    "id": 564,
+    "text": "放松",
+    "pinyin": "fàngsōng"
+  },
+  {
+    "id": 565,
+    "text": "轻松",
+    "pinyin": "qīngsōng"
+  },
+  {
+    "id": 566,
+    "text": "舒服",
+    "pinyin": "shūfu"
+  },
+  {
+    "id": 567,
+    "text": "舒适",
+    "pinyin": "shūshì"
+  },
+  {
+    "id": 568,
+    "text": "难受",
+    "pinyin": "nánshòu"
+  },
+  {
+    "id": 569,
+    "text": "不舒服",
+    "pinyin": "bùshūfu"
+  },
+  {
+    "id": 570,
+    "text": "云",
+    "pinyin": "yún"
+  },
+  {
+    "id": 571,
+    "text": "风",
+    "pinyin": "fēng"
+  },
+  {
+    "id": 572,
+    "text": "雨",
+    "pinyin": "yǔ"
+  },
+  {
+    "id": 573,
+    "text": "雪",
+    "pinyin": "xuě"
+  },
+  {
+    "id": 574,
+    "text": "霜",
+    "pinyin": "shuāng"
+  },
+  {
+    "id": 575,
+    "text": "雾",
+    "pinyin": "wù"
+  },
+  {
+    "id": 576,
+    "text": "露",
+    "pinyin": "lù"
+  },
+  {
+    "id": 577,
+    "text": "雷",
+    "pinyin": "léi"
+  },
+  {
+    "id": 578,
+    "text": "电",
+    "pinyin": "diàn"
+  },
+  {
+    "id": 579,
+    "text": "闪电",
+    "pinyin": "shǎndiàn"
+  },
+  {
+    "id": 580,
+    "text": "彩虹",
+    "pinyin": "cǎihóng"
+  },
+  {
+    "id": 581,
+    "text": "天空",
+    "pinyin": "tiānkōng"
+  },
+  {
+    "id": 582,
+    "text": "大地",
+    "pinyin": "dàdì"
+  },
+  {
+    "id": 583,
+    "text": "池塘",
+    "pinyin": "chítáng"
+  },
+  {
+    "id": 584,
+    "text": "泉水",
+    "pinyin": "quánshuǐ"
+  },
+  {
+    "id": 585,
+    "text": "瀑布",
+    "pinyin": "pùbù"
+  },
+  {
+    "id": 586,
+    "text": "山",
+    "pinyin": "shān"
+  },
+  {
+    "id": 587,
+    "text": "峰",
+    "pinyin": "fēng"
+  },
+  {
+    "id": 588,
+    "text": "岭",
+    "pinyin": "lǐng"
+  },
+  {
+    "id": 589,
+    "text": "谷",
+    "pinyin": "gǔ"
+  },
+  {
+    "id": 590,
+    "text": "坡",
+    "pinyin": "pō"
+  },
+  {
+    "id": 591,
+    "text": "崖",
+    "pinyin": "yá"
+  },
+  {
+    "id": 592,
+    "text": "洞",
+    "pinyin": "dòng"
+  },
+  {
+    "id": 593,
+    "text": "岩石",
+    "pinyin": "yánshí"
+  },
+  {
+    "id": 594,
+    "text": "石头",
+    "pinyin": "shítou"
+  },
+  {
+    "id": 595,
+    "text": "沙子",
+    "pinyin": "shāzi"
+  },
+  {
+    "id": 596,
+    "text": "泥土",
+    "pinyin": "nítǔ"
+  },
+  {
+    "id": 597,
+    "text": "土地",
+    "pinyin": "tǔdì"
+  },
+  {
+    "id": 598,
+    "text": "田",
+    "pinyin": "tián"
+  },
+  {
+    "id": 599,
+    "text": "园",
+    "pinyin": "yuán"
+  },
+  {
+    "id": 600,
+    "text": "菜园",
+    "pinyin": "càiyuán"
+  },
+  {
+    "id": 601,
+    "text": "果园",
+    "pinyin": "guǒyuán"
+  },
+  {
+    "id": 602,
+    "text": "花园",
+    "pinyin": "huāyuán"
+  },
+  {
+    "id": 603,
+    "text": "树",
+    "pinyin": "shù"
+  },
+  {
+    "id": 604,
+    "text": "花",
+    "pinyin": "huā"
+  },
+  {
+    "id": 605,
+    "text": "草",
+    "pinyin": "cǎo"
+  },
+  {
+    "id": 606,
+    "text": "叶",
+    "pinyin": "yè"
+  },
+  {
+    "id": 607,
+    "text": "枝",
+    "pinyin": "zhī"
+  },
+  {
+    "id": 608,
+    "text": "茎",
+    "pinyin": "jīng"
+  },
+  {
+    "id": 609,
+    "text": "果",
+    "pinyin": "guǒ"
+  },
+  {
+    "id": 610,
+    "text": "松树",
+    "pinyin": "sōngshù"
+  },
+  {
+    "id": 611,
+    "text": "柳树",
+    "pinyin": "liǔshù"
+  },
+  {
+    "id": 612,
+    "text": "杨树",
+    "pinyin": "yángshù"
+  },
+  {
+    "id": 613,
+    "text": "槐树",
+    "pinyin": "huáishù"
+  },
+  {
+    "id": 614,
+    "text": "梧桐",
+    "pinyin": "wútóng"
+  },
+  {
+    "id": 615,
+    "text": "银杏",
+    "pinyin": "yínxìng"
+  },
+  {
+    "id": 616,
+    "text": "竹子",
+    "pinyin": "zhúzi"
+  },
+  {
+    "id": 617,
+    "text": "梅花",
+    "pinyin": "méihuā"
+  },
+  {
+    "id": 618,
+    "text": "桃花",
+    "pinyin": "táohuā"
+  },
+  {
+    "id": 619,
+    "text": "梨花",
+    "pinyin": "líhuā"
+  },
+  {
+    "id": 620,
+    "text": "杏花",
+    "pinyin": "xìnghuā"
+  },
+  {
+    "id": 621,
+    "text": "荷花",
+    "pinyin": "héhuā"
+  },
+  {
+    "id": 622,
+    "text": "菊花",
+    "pinyin": "júhuā"
+  },
+  {
+    "id": 623,
+    "text": "桂花",
+    "pinyin": "guìhuā"
+  },
+  {
+    "id": 624,
+    "text": "牡丹",
+    "pinyin": "mǔdan"
+  },
+  {
+    "id": 625,
+    "text": "玫瑰",
+    "pinyin": "méigui"
+  },
+  {
+    "id": 626,
+    "text": "月季",
+    "pinyin": "yuèjì"
+  },
+  {
+    "id": 627,
+    "text": "茉莉",
+    "pinyin": "mòlì"
+  },
+  {
+    "id": 628,
+    "text": "水仙",
+    "pinyin": "shuǐxiān"
+  },
+  {
+    "id": 629,
+    "text": "兰花",
+    "pinyin": "lánhuā"
+  },
+  {
+    "id": 630,
+    "text": "百合",
+    "pinyin": "bǎihé"
+  },
+  {
+    "id": 631,
+    "text": "牵牛花",
+    "pinyin": "qiānniúhuā"
+  },
+  {
+    "id": 632,
+    "text": "向日葵",
+    "pinyin": "xiàngrìkuí"
+  },
+  {
+    "id": 633,
+    "text": "蒲公英",
+    "pinyin": "púgōngyīng"
+  },
+  {
+    "id": 634,
+    "text": "虎",
+    "pinyin": "hǔ"
+  },
+  {
+    "id": 635,
+    "text": "狮",
+    "pinyin": "shī"
+  },
+  {
+    "id": 636,
+    "text": "豹",
+    "pinyin": "bào"
+  },
+  {
+    "id": 637,
+    "text": "熊",
+    "pinyin": "xióng"
+  },
+  {
+    "id": 638,
+    "text": "狼",
+    "pinyin": "láng"
+  },
+  {
+    "id": 639,
+    "text": "狐狸",
+    "pinyin": "húli"
+  },
+  {
+    "id": 640,
+    "text": "兔",
+    "pinyin": "tù"
+  },
+  {
+    "id": 641,
+    "text": "鹿",
+    "pinyin": "lù"
+  },
+  {
+    "id": 642,
+    "text": "象",
+    "pinyin": "xiàng"
+  },
+  {
+    "id": 643,
+    "text": "猴",
+    "pinyin": "hóu"
+  },
+  {
+    "id": 644,
+    "text": "熊猫",
+    "pinyin": "xióngmāo"
+  },
+  {
+    "id": 645,
+    "text": "袋鼠",
+    "pinyin": "dàishǔ"
+  },
+  {
+    "id": 646,
+    "text": "长颈鹿",
+    "pinyin": "chángjǐnglù"
+  },
+  {
+    "id": 647,
+    "text": "斑马",
+    "pinyin": "bānmǎ"
+  },
+  {
+    "id": 648,
+    "text": "犀牛",
+    "pinyin": "xīniú"
+  },
+  {
+    "id": 649,
+    "text": "河马",
+    "pinyin": "hémǎ"
+  },
+  {
+    "id": 650,
+    "text": "鳄鱼",
+    "pinyin": "èyú"
+  },
+  {
+    "id": 651,
+    "text": "蛇",
+    "pinyin": "shé"
+  },
+  {
+    "id": 652,
+    "text": "蜥蜴",
+    "pinyin": "xīyì"
+  },
+  {
+    "id": 653,
+    "text": "乌龟",
+    "pinyin": "wūguī"
+  },
+  {
+    "id": 654,
+    "text": "青蛙",
+    "pinyin": "qīngwā"
+  },
+  {
+    "id": 655,
+    "text": "蝌蚪",
+    "pinyin": "kēdǒu"
+  },
+  {
+    "id": 656,
+    "text": "鱼",
+    "pinyin": "yú"
+  },
+  {
+    "id": 657,
+    "text": "鲨鱼",
+    "pinyin": "shāyú"
+  },
+  {
+    "id": 658,
+    "text": "鲸鱼",
+    "pinyin": "jīngyú"
+  },
+  {
+    "id": 659,
+    "text": "海豚",
+    "pinyin": "hǎitún"
+  },
+  {
+    "id": 660,
+    "text": "章鱼",
+    "pinyin": "zhāngyú"
+  },
+  {
+    "id": 661,
+    "text": "螃蟹",
+    "pinyin": "pángxiè"
+  },
+  {
+    "id": 662,
+    "text": "虾",
+    "pinyin": "xiā"
+  },
+  {
+    "id": 663,
+    "text": "贝",
+    "pinyin": "bèi"
+  },
+  {
+    "id": 664,
+    "text": "海星",
+    "pinyin": "hǎixīng"
+  },
+  {
+    "id": 665,
+    "text": "海龟",
+    "pinyin": "hǎiguī"
+  },
+  {
+    "id": 666,
+    "text": "鸟",
+    "pinyin": "niǎo"
+  },
+  {
+    "id": 667,
+    "text": "鹰",
+    "pinyin": "yīng"
+  },
+  {
+    "id": 668,
+    "text": "鸽",
+    "pinyin": "gē"
+  },
+  {
+    "id": 669,
+    "text": "燕",
+    "pinyin": "yàn"
+  },
+  {
+    "id": 670,
+    "text": "雀",
+    "pinyin": "què"
+  },
+  {
+    "id": 671,
+    "text": "鸦",
+    "pinyin": "yā"
+  },
+  {
+    "id": 672,
+    "text": "鹊",
+    "pinyin": "què"
+  },
+  {
+    "id": 673,
+    "text": "鹤",
+    "pinyin": "hè"
+  },
+  {
+    "id": 674,
+    "text": "雁",
+    "pinyin": "yàn"
+  },
+  {
+    "id": 675,
+    "text": "天鹅",
+    "pinyin": "tiān'é"
+  },
+  {
+    "id": 676,
+    "text": "鸭",
+    "pinyin": "yā"
+  },
+  {
+    "id": 677,
+    "text": "鹅",
+    "pinyin": "é"
+  },
+  {
+    "id": 678,
+    "text": "鸡",
+    "pinyin": "jī"
+  },
+  {
+    "id": 679,
+    "text": "火鸡",
+    "pinyin": "huǒjī"
+  },
+  {
+    "id": 680,
+    "text": "孔雀",
+    "pinyin": "kǒngquè"
+  },
+  {
+    "id": 681,
+    "text": "鹦鹉",
+    "pinyin": "yīngwǔ"
+  },
+  {
+    "id": 682,
+    "text": "昆虫",
+    "pinyin": "kūnchóng"
+  },
+  {
+    "id": 683,
+    "text": "蝴蝶",
+    "pinyin": "húdié"
+  },
+  {
+    "id": 684,
+    "text": "蜜蜂",
+    "pinyin": "mìfēng"
+  },
+  {
+    "id": 685,
+    "text": "蚂蚁",
+    "pinyin": "mǎyǐ"
+  },
+  {
+    "id": 686,
+    "text": "蟋蟀",
+    "pinyin": "xīshuài"
+  },
+  {
+    "id": 687,
+    "text": "螳螂",
+    "pinyin": "tángláng"
+  },
+  {
+    "id": 688,
+    "text": "蜻蜓",
+    "pinyin": "qīngtíng"
+  },
+  {
+    "id": 689,
+    "text": "蜘蛛",
+    "pinyin": "zhīzhū"
+  },
+  {
+    "id": 690,
+    "text": "蚊子",
+    "pinyin": "wénzi"
+  },
+  {
+    "id": 691,
+    "text": "苍蝇",
+    "pinyin": "cāngying"
+  },
+  {
+    "id": 692,
+    "text": "蛾",
+    "pinyin": "é"
+  },
+  {
+    "id": 693,
+    "text": "甲虫",
+    "pinyin": "jiǎchóng"
+  },
+  {
+    "id": 694,
+    "text": "瓢虫",
+    "pinyin": "piáochóng"
+  },
+  {
+    "id": 695,
+    "text": "萤火虫",
+    "pinyin": "yínghuǒchóng"
+  },
+  {
+    "id": 696,
+    "text": "橙子",
+    "pinyin": "chéngzi"
+  },
+  {
+    "id": 697,
+    "text": "橘子",
+    "pinyin": "júzi"
+  },
+  {
+    "id": 698,
+    "text": "柠檬",
+    "pinyin": "níngméng"
+  },
+  {
+    "id": 699,
+    "text": "葡萄",
+    "pinyin": "pútao"
+  },
+  {
+    "id": 700,
+    "text": "草莓",
+    "pinyin": "cǎoméi"
+  },
+  {
+    "id": 701,
+    "text": "蓝莓",
+    "pinyin": "lánméi"
+  },
+  {
+    "id": 702,
+    "text": "樱桃",
+    "pinyin": "yīngtao"
+  },
+  {
+    "id": 703,
+    "text": "梨",
+    "pinyin": "lí"
+  },
+  {
+    "id": 704,
+    "text": "桃",
+    "pinyin": "táo"
+  },
+  {
+    "id": 705,
+    "text": "杏",
+    "pinyin": "xìng"
+  },
+  {
+    "id": 706,
+    "text": "李",
+    "pinyin": "lǐ"
+  },
+  {
+    "id": 707,
+    "text": "枣",
+    "pinyin": "zǎo"
+  },
+  {
+    "id": 708,
+    "text": "柿子",
+    "pinyin": "shìzi"
+  },
+  {
+    "id": 709,
+    "text": "石榴",
+    "pinyin": "shíliu"
+  },
+  {
+    "id": 710,
+    "text": "柚子",
+    "pinyin": "yòuzi"
+  },
+  {
+    "id": 711,
+    "text": "荔枝",
+    "pinyin": "lìzhī"
+  },
+  {
+    "id": 712,
+    "text": "龙眼",
+    "pinyin": "lóngyǎn"
+  },
+  {
+    "id": 713,
+    "text": "芒果",
+    "pinyin": "mángguǒ"
+  },
+  {
+    "id": 714,
+    "text": "菠萝",
+    "pinyin": "bōluó"
+  },
+  {
+    "id": 715,
+    "text": "西瓜",
+    "pinyin": "xīguā"
+  },
+  {
+    "id": 716,
+    "text": "哈密瓜",
+    "pinyin": "hāmìguā"
+  },
+  {
+    "id": 717,
+    "text": "甜瓜",
+    "pinyin": "tiánguā"
+  },
+  {
+    "id": 718,
+    "text": "木瓜",
+    "pinyin": "mùguā"
+  },
+  {
+    "id": 719,
+    "text": "猕猴桃",
+    "pinyin": "míhóutáo"
+  },
+  {
+    "id": 720,
+    "text": "火龙果",
+    "pinyin": "huǒlóngguǒ"
+  },
+  {
+    "id": 721,
+    "text": "白菜",
+    "pinyin": "báicài"
+  },
+  {
+    "id": 722,
+    "text": "青菜",
+    "pinyin": "qīngcài"
+  },
+  {
+    "id": 723,
+    "text": "菠菜",
+    "pinyin": "bōcài"
+  },
+  {
+    "id": 724,
+    "text": "芹菜",
+    "pinyin": "qíncài"
+  },
+  {
+    "id": 725,
+    "text": "韭菜",
+    "pinyin": "jiǔcài"
+  },
+  {
+    "id": 726,
+    "text": "生菜",
+    "pinyin": "shēngcài"
+  },
+  {
+    "id": 727,
+    "text": "卷心菜",
+    "pinyin": "juǎnxīncài"
+  },
+  {
+    "id": 728,
+    "text": "花菜",
+    "pinyin": "huācài"
+  },
+  {
+    "id": 729,
+    "text": "萝卜",
+    "pinyin": "luóbo"
+  },
+  {
+    "id": 730,
+    "text": "胡萝卜",
+    "pinyin": "húluóbo"
+  },
+  {
+    "id": 731,
+    "text": "土豆",
+    "pinyin": "tǔdòu"
+  },
+  {
+    "id": 732,
+    "text": "红薯",
+    "pinyin": "hóngshǔ"
+  },
+  {
+    "id": 733,
+    "text": "山药",
+    "pinyin": "shānyào"
+  },
+  {
+    "id": 734,
+    "text": "莲藕",
+    "pinyin": "lián'ǒu"
+  },
+  {
+    "id": 735,
+    "text": "黄瓜",
+    "pinyin": "huángguā"
+  },
+  {
+    "id": 736,
+    "text": "冬瓜",
+    "pinyin": "dōngguā"
+  },
+  {
+    "id": 737,
+    "text": "南瓜",
+    "pinyin": "nánguā"
+  },
+  {
+    "id": 738,
+    "text": "丝瓜",
+    "pinyin": "sīguā"
+  },
+  {
+    "id": 739,
+    "text": "苦瓜",
+    "pinyin": "kǔguā"
+  },
+  {
+    "id": 740,
+    "text": "茄子",
+    "pinyin": "qiézi"
+  },
+  {
+    "id": 741,
+    "text": "西红柿",
+    "pinyin": "xīhóngshì"
+  },
+  {
+    "id": 742,
+    "text": "辣椒",
+    "pinyin": "làjiāo"
+  },
+  {
+    "id": 743,
+    "text": "青椒",
+    "pinyin": "qīngjiāo"
+  },
+  {
+    "id": 744,
+    "text": "洋葱",
+    "pinyin": "yángcōng"
+  },
+  {
+    "id": 745,
+    "text": "大蒜",
+    "pinyin": "dàsuàn"
+  },
+  {
+    "id": 746,
+    "text": "姜",
+    "pinyin": "jiāng"
+  },
+  {
+    "id": 747,
+    "text": "葱",
+    "pinyin": "cōng"
+  },
+  {
+    "id": 748,
+    "text": "蘑菇",
+    "pinyin": "mógū"
+  },
+  {
+    "id": 749,
+    "text": "木耳",
+    "pinyin": "mù'ěr"
+  },
+  {
+    "id": 750,
+    "text": "银耳",
+    "pinyin": "yín'ěr"
+  },
+  {
+    "id": 751,
+    "text": "豆芽",
+    "pinyin": "dòuyá"
+  },
+  {
+    "id": 752,
+    "text": "豆腐",
+    "pinyin": "dòufu"
+  },
+  {
+    "id": 753,
+    "text": "豆角",
+    "pinyin": "dòujiǎo"
+  },
+  {
+    "id": 754,
+    "text": "豌豆",
+    "pinyin": "wāndòu"
+  },
+  {
+    "id": 755,
+    "text": "蚕豆",
+    "pinyin": "cándòu"
+  },
+  {
+    "id": 756,
+    "text": "绿豆",
+    "pinyin": "lǜdòu"
+  },
+  {
+    "id": 757,
+    "text": "红豆",
+    "pinyin": "hóngdòu"
+  },
+  {
+    "id": 758,
+    "text": "黄豆",
+    "pinyin": "huángdòu"
+  },
+  {
+    "id": 759,
+    "text": "黑豆",
+    "pinyin": "hēidòu"
+  },
+  {
+    "id": 760,
+    "text": "馄饨",
+    "pinyin": "húntun"
+  },
+  {
+    "id": 761,
+    "text": "汤圆",
+    "pinyin": "tāngyuán"
+  },
+  {
+    "id": 762,
+    "text": "粽子",
+    "pinyin": "zòngzi"
+  },
+  {
+    "id": 763,
+    "text": "年糕",
+    "pinyin": "niángāo"
+  },
+  {
+    "id": 764,
+    "text": "花卷",
+    "pinyin": "huājuǎn"
+  },
+  {
+    "id": 765,
+    "text": "烧饼",
+    "pinyin": "shāobǐng"
+  },
+  {
+    "id": 766,
+    "text": "油条",
+    "pinyin": "yóutiáo"
+  },
+  {
+    "id": 767,
+    "text": "巧克力",
+    "pinyin": "qiǎokèlì"
+  },
+  {
+    "id": 768,
+    "text": "酸奶",
+    "pinyin": "suānnǎi"
+  },
+  {
+    "id": 769,
+    "text": "奶酪",
+    "pinyin": "nǎilào"
+  },
+  {
+    "id": 770,
+    "text": "鸭蛋",
+    "pinyin": "yādàn"
+  },
+  {
+    "id": 771,
+    "text": "鹅蛋",
+    "pinyin": "édàn"
+  },
+  {
+    "id": 772,
+    "text": "肉",
+    "pinyin": "ròu"
+  },
+  {
+    "id": 773,
+    "text": "牛肉",
+    "pinyin": "niúròu"
+  },
+  {
+    "id": 774,
+    "text": "猪肉",
+    "pinyin": "zhūròu"
+  },
+  {
+    "id": 775,
+    "text": "羊肉",
+    "pinyin": "yángròu"
+  },
+  {
+    "id": 776,
+    "text": "鸡肉",
+    "pinyin": "jīròu"
+  },
+  {
+    "id": 777,
+    "text": "鸭肉",
+    "pinyin": "yāròu"
+  },
+  {
+    "id": 778,
+    "text": "鱼肉",
+    "pinyin": "yúròu"
+  },
+  {
+    "id": 779,
+    "text": "虾肉",
+    "pinyin": "xiāròu"
+  },
+  {
+    "id": 780,
+    "text": "蟹肉",
+    "pinyin": "xièròu"
+  },
+  {
+    "id": 781,
+    "text": "粥",
+    "pinyin": "zhōu"
+  },
+  {
+    "id": 782,
+    "text": "稀饭",
+    "pinyin": "xīfàn"
+  },
+  {
+    "id": 783,
+    "text": "菜",
+    "pinyin": "cài"
+  },
+  {
+    "id": 784,
+    "text": "菜汤",
+    "pinyin": "càitāng"
+  },
+  {
+    "id": 785,
+    "text": "肉汤",
+    "pinyin": "ròutāng"
+  },
+  {
+    "id": 786,
+    "text": "鱼汤",
+    "pinyin": "yútāng"
+  },
+  {
+    "id": 787,
+    "text": "鸡汤",
+    "pinyin": "jītāng"
+  },
+  {
+    "id": 788,
+    "text": "排骨汤",
+    "pinyin": "páigǔtāng"
+  },
+  {
+    "id": 789,
+    "text": "书",
+    "pinyin": "shū"
+  },
+  {
+    "id": 790,
+    "text": "课本",
+    "pinyin": "kèběn"
+  },
+  {
+    "id": 791,
+    "text": "作业本",
+    "pinyin": "zuòyèběn"
+  },
+  {
+    "id": 792,
+    "text": "练习本",
+    "pinyin": "liànxíběn"
+  },
+  {
+    "id": 793,
+    "text": "笔记本",
+    "pinyin": "bǐjìběn"
+  },
+  {
+    "id": 794,
+    "text": "字典",
+    "pinyin": "zìdiǎn"
+  },
+  {
+    "id": 795,
+    "text": "词典",
+    "pinyin": "cídiǎn"
+  },
+  {
+    "id": 796,
+    "text": "笔",
+    "pinyin": "bǐ"
+  },
+  {
+    "id": 797,
+    "text": "钢笔",
+    "pinyin": "gāngbǐ"
+  },
+  {
+    "id": 798,
+    "text": "圆珠笔",
+    "pinyin": "yuánzhūbǐ"
+  },
+  {
+    "id": 799,
+    "text": "毛笔",
+    "pinyin": "máobǐ"
+  },
+  {
+    "id": 800,
+    "text": "水彩笔",
+    "pinyin": "shuǐcǎibǐ"
+  },
+  {
+    "id": 801,
+    "text": "蜡笔",
+    "pinyin": "làbǐ"
+  },
+  {
+    "id": 802,
+    "text": "彩笔",
+    "pinyin": "cǎibǐ"
+  },
+  {
+    "id": 803,
+    "text": "尺子",
+    "pinyin": "chǐzi"
+  },
+  {
+    "id": 804,
+    "text": "直尺",
+    "pinyin": "zhíchǐ"
+  },
+  {
+    "id": 805,
+    "text": "三角板",
+    "pinyin": "sānjiǎobǎn"
+  },
+  {
+    "id": 806,
+    "text": "量角器",
+    "pinyin": "liángjiǎoqì"
+  },
+  {
+    "id": 807,
+    "text": "圆规",
+    "pinyin": "yuánguī"
+  },
+  {
+    "id": 808,
+    "text": "文具盒",
+    "pinyin": "wénjùhé"
+  },
+  {
+    "id": 809,
+    "text": "笔袋",
+    "pinyin": "bǐdài"
+  },
+  {
+    "id": 810,
+    "text": "削笔刀",
+    "pinyin": "xuēbǐdāo"
+  },
+  {
+    "id": 811,
+    "text": "胶水",
+    "pinyin": "jiāoshuǐ"
+  },
+  {
+    "id": 812,
+    "text": "胶带",
+    "pinyin": "jiāodài"
+  },
+  {
+    "id": 813,
+    "text": "订书机",
+    "pinyin": "dìngshūjī"
+  },
+  {
+    "id": 814,
+    "text": "回形针",
+    "pinyin": "huíxíngzhēn"
+  },
+  {
+    "id": 815,
+    "text": "夹子",
+    "pinyin": "jiāzi"
+  },
+  {
+    "id": 816,
+    "text": "文件夹",
+    "pinyin": "wénjiànjiá"
+  },
+  {
+    "id": 817,
+    "text": "计算器",
+    "pinyin": "jìsuànqì"
+  },
+  {
+    "id": 818,
+    "text": "地球仪",
+    "pinyin": "dìqiúyí"
+  },
+  {
+    "id": 819,
+    "text": "幼儿园",
+    "pinyin": "yòu'éryuán"
+  },
+  {
+    "id": 820,
+    "text": "小学",
+    "pinyin": "xiǎoxué"
+  },
+  {
+    "id": 821,
+    "text": "中学",
+    "pinyin": "zhōngxué"
+  },
+  {
+    "id": 822,
+    "text": "高中",
+    "pinyin": "gāozhōng"
+  },
+  {
+    "id": 823,
+    "text": "大学",
+    "pinyin": "dàxué"
+  },
+  {
+    "id": 824,
+    "text": "办公室",
+    "pinyin": "bàngōngshì"
+  },
+  {
+    "id": 825,
+    "text": "阅览室",
+    "pinyin": "yuèlǎnshì"
+  },
+  {
+    "id": 826,
+    "text": "实验室",
+    "pinyin": "shíyànshì"
+  },
+  {
+    "id": 827,
+    "text": "音乐室",
+    "pinyin": "yīnyuèshì"
+  },
+  {
+    "id": 828,
+    "text": "美术室",
+    "pinyin": "měishùshì"
+  },
+  {
+    "id": 829,
+    "text": "电脑室",
+    "pinyin": "diànnǎoshì"
+  },
+  {
+    "id": 830,
+    "text": "操场",
+    "pinyin": "cāochǎng"
+  },
+  {
+    "id": 831,
+    "text": "篮球场",
+    "pinyin": "lánqiúchǎng"
+  },
+  {
+    "id": 832,
+    "text": "足球场",
+    "pinyin": "zúqiúchǎng"
+  },
+  {
+    "id": 833,
+    "text": "乒乓球台",
+    "pinyin": "pīngpāngqiútái"
+  },
+  {
+    "id": 834,
+    "text": "跑道",
+    "pinyin": "pǎodào"
+  },
+  {
+    "id": 835,
+    "text": "沙坑",
+    "pinyin": "shākēng"
+  },
+  {
+    "id": 836,
+    "text": "单杠",
+    "pinyin": "dāngàng"
+  },
+  {
+    "id": 837,
+    "text": "双杠",
+    "pinyin": "shuānggàng"
+  },
+  {
+    "id": 838,
+    "text": "秋千",
+    "pinyin": "qiūqiān"
+  },
+  {
+    "id": 839,
+    "text": "滑梯",
+    "pinyin": "huátī"
+  },
+  {
+    "id": 840,
+    "text": "跷跷板",
+    "pinyin": "qiāoqiāobǎn"
+  },
+  {
+    "id": 841,
+    "text": "旋转木马",
+    "pinyin": "xuánzhuǎnmùmǎ"
+  },
+  {
+    "id": 842,
+    "text": "教师",
+    "pinyin": "jiàoshī"
+  },
+  {
+    "id": 843,
+    "text": "班主任",
+    "pinyin": "bānzhǔrèn"
+  },
+  {
+    "id": 844,
+    "text": "校长",
+    "pinyin": "xiàozhǎng"
+  },
+  {
+    "id": 845,
+    "text": "同桌",
+    "pinyin": "tóngzhuō"
+  },
+  {
+    "id": 846,
+    "text": "好朋友",
+    "pinyin": "hǎopéngyou"
+  },
+  {
+    "id": 847,
+    "text": "伙伴",
+    "pinyin": "huǒbàn"
+  },
+  {
+    "id": 848,
+    "text": "同伴",
+    "pinyin": "tóngbàn"
+  },
+  {
+    "id": 849,
+    "text": "玩伴",
+    "pinyin": "wánbàn"
+  },
+  {
+    "id": 850,
+    "text": "父亲",
+    "pinyin": "fùqin"
+  },
+  {
+    "id": 851,
+    "text": "母亲",
+    "pinyin": "mǔqin"
+  },
+  {
+    "id": 852,
+    "text": "外公",
+    "pinyin": "wàigōng"
+  },
+  {
+    "id": 853,
+    "text": "外婆",
+    "pinyin": "wàipó"
+  },
+  {
+    "id": 854,
+    "text": "祖父",
+    "pinyin": "zǔfù"
+  },
+  {
+    "id": 855,
+    "text": "祖母",
+    "pinyin": "zǔmǔ"
+  },
+  {
+    "id": 856,
+    "text": "哥哥",
+    "pinyin": "gēge"
+  },
+  {
+    "id": 857,
+    "text": "弟弟",
+    "pinyin": "dìdi"
+  },
+  {
+    "id": 858,
+    "text": "姐姐",
+    "pinyin": "jiějie"
+  },
+  {
+    "id": 859,
+    "text": "妹妹",
+    "pinyin": "mèimei"
+  },
+  {
+    "id": 860,
+    "text": "叔叔",
+    "pinyin": "shūshu"
+  },
+  {
+    "id": 861,
+    "text": "阿姨",
+    "pinyin": "āyí"
+  },
+  {
+    "id": 862,
+    "text": "舅舅",
+    "pinyin": "jiùjiu"
+  },
+  {
+    "id": 863,
+    "text": "舅妈",
+    "pinyin": "jiùmā"
+  },
+  {
+    "id": 864,
+    "text": "姑姑",
+    "pinyin": "gūgu"
+  },
+  {
+    "id": 865,
+    "text": "姑父",
+    "pinyin": "gūfu"
+  },
+  {
+    "id": 866,
+    "text": "伯伯",
+    "pinyin": "bóbo"
+  },
+  {
+    "id": 867,
+    "text": "伯母",
+    "pinyin": "bómǔ"
+  },
+  {
+    "id": 868,
+    "text": "侄子",
+    "pinyin": "zhízi"
+  },
+  {
+    "id": 869,
+    "text": "侄女",
+    "pinyin": "zhínǚ"
+  },
+  {
+    "id": 870,
+    "text": "外甥",
+    "pinyin": "wàisheng"
+  },
+  {
+    "id": 871,
+    "text": "外甥女",
+    "pinyin": "wàishengnǚ"
+  },
+  {
+    "id": 872,
+    "text": "医生",
+    "pinyin": "yīshēng"
+  },
+  {
+    "id": 873,
+    "text": "护士",
+    "pinyin": "hùshi"
+  },
+  {
+    "id": 874,
+    "text": "警察",
+    "pinyin": "jǐngchá"
+  },
+  {
+    "id": 875,
+    "text": "消防员",
+    "pinyin": "xiāofángyuán"
+  },
+  {
+    "id": 876,
+    "text": "司机",
+    "pinyin": "sījī"
+  },
+  {
+    "id": 877,
+    "text": "厨师",
+    "pinyin": "chúshī"
+  },
+  {
+    "id": 878,
+    "text": "服务员",
+    "pinyin": "fúwùyuán"
+  },
+  {
+    "id": 879,
+    "text": "售货员",
+    "pinyin": "shòuhuòyuán"
+  },
+  {
+    "id": 880,
+    "text": "工人",
+    "pinyin": "gōngrén"
+  },
+  {
+    "id": 881,
+    "text": "农民",
+    "pinyin": "nóngmín"
+  },
+  {
+    "id": 882,
+    "text": "科学家",
+    "pinyin": "kēxuéjiā"
+  },
+  {
+    "id": 883,
+    "text": "工程师",
+    "pinyin": "gōngchéngshī"
+  },
+  {
+    "id": 884,
+    "text": "设计师",
+    "pinyin": "shèjìshī"
+  },
+  {
+    "id": 885,
+    "text": "画家",
+    "pinyin": "huàjiā"
+  },
+  {
+    "id": 886,
+    "text": "音乐家",
+    "pinyin": "yīnyuèjiā"
+  },
+  {
+    "id": 887,
+    "text": "作家",
+    "pinyin": "zuòjiā"
+  },
+  {
+    "id": 888,
+    "text": "记者",
+    "pinyin": "jìzhě"
+  },
+  {
+    "id": 889,
+    "text": "编辑",
+    "pinyin": "biānjí"
+  },
+  {
+    "id": 890,
+    "text": "律师",
+    "pinyin": "lǜshī"
+  },
+  {
+    "id": 891,
+    "text": "法官",
+    "pinyin": "fǎguān"
+  },
+  {
+    "id": 892,
+    "text": "军人",
+    "pinyin": "jūnrén"
+  },
+  {
+    "id": 893,
+    "text": "飞行员",
+    "pinyin": "fēixíngyuán"
+  },
+  {
+    "id": 894,
+    "text": "空姐",
+    "pinyin": "kōngjiě"
+  },
+  {
+    "id": 895,
+    "text": "导游",
+    "pinyin": "dǎoyóu"
+  },
+  {
+    "id": 896,
+    "text": "翻译",
+    "pinyin": "fānyì"
+  },
+  {
+    "id": 897,
+    "text": "凳子",
+    "pinyin": "dèngzi"
+  },
+  {
+    "id": 898,
+    "text": "沙发",
+    "pinyin": "shāfā"
+  },
+  {
+    "id": 899,
+    "text": "床",
+    "pinyin": "chuáng"
+  },
+  {
+    "id": 900,
+    "text": "被子",
+    "pinyin": "bèizi"
+  },
+  {
+    "id": 901,
+    "text": "枕头",
+    "pinyin": "zhěntou"
+  },
+  {
+    "id": 902,
+    "text": "床单",
+    "pinyin": "chuángdān"
+  },
+  {
+    "id": 903,
+    "text": "毯子",
+    "pinyin": "tǎnzi"
+  },
+  {
+    "id": 904,
+    "text": "窗帘",
+    "pinyin": "chuānglián"
+  },
+  {
+    "id": 905,
+    "text": "门",
+    "pinyin": "mén"
+  },
+  {
+    "id": 906,
+    "text": "灯",
+    "pinyin": "dēng"
+  },
+  {
+    "id": 907,
+    "text": "台灯",
+    "pinyin": "táidēng"
+  },
+  {
+    "id": 908,
+    "text": "吊灯",
+    "pinyin": "diàodēng"
+  },
+  {
+    "id": 909,
+    "text": "壁灯",
+    "pinyin": "bìdēng"
+  },
+  {
+    "id": 910,
+    "text": "手电筒",
+    "pinyin": "shǒudiàntǒng"
+  },
+  {
+    "id": 911,
+    "text": "蜡烛",
+    "pinyin": "làzhú"
+  },
+  {
+    "id": 912,
+    "text": "钟",
+    "pinyin": "zhōng"
+  },
+  {
+    "id": 913,
+    "text": "表",
+    "pinyin": "biǎo"
+  },
+  {
+    "id": 914,
+    "text": "闹钟",
+    "pinyin": "nàozhōng"
+  },
+  {
+    "id": 915,
+    "text": "挂钟",
+    "pinyin": "guàzhōng"
+  },
+  {
+    "id": 916,
+    "text": "手表",
+    "pinyin": "shǒubiǎo"
+  },
+  {
+    "id": 917,
+    "text": "镜子",
+    "pinyin": "jìngzi"
+  },
+  {
+    "id": 918,
+    "text": "梳子",
+    "pinyin": "shūzi"
+  },
+  {
+    "id": 919,
+    "text": "牙刷",
+    "pinyin": "yáshuā"
+  },
+  {
+    "id": 920,
+    "text": "牙膏",
+    "pinyin": "yágāo"
+  },
+  {
+    "id": 921,
+    "text": "毛巾",
+    "pinyin": "máojīn"
+  },
+  {
+    "id": 922,
+    "text": "浴巾",
+    "pinyin": "yùjīn"
+  },
+  {
+    "id": 923,
+    "text": "香皂",
+    "pinyin": "xiāngzào"
+  },
+  {
+    "id": 924,
+    "text": "肥皂",
+    "pinyin": "féizào"
+  },
+  {
+    "id": 925,
+    "text": "洗发水",
+    "pinyin": "xǐfàshuǐ"
+  },
+  {
+    "id": 926,
+    "text": "沐浴露",
+    "pinyin": "mùyùlù"
+  },
+  {
+    "id": 927,
+    "text": "脸盆",
+    "pinyin": "liǎnpén"
+  },
+  {
+    "id": 928,
+    "text": "水桶",
+    "pinyin": "shuǐtǒng"
+  },
+  {
+    "id": 929,
+    "text": "拖把",
+    "pinyin": "tuōbǎ"
+  },
+  {
+    "id": 930,
+    "text": "扫帚",
+    "pinyin": "sàozhou"
+  },
+  {
+    "id": 931,
+    "text": "簸箕",
+    "pinyin": "bòji"
+  },
+  {
+    "id": 932,
+    "text": "垃圾桶",
+    "pinyin": "lājītǒng"
+  },
+  {
+    "id": 933,
+    "text": "抹布",
+    "pinyin": "mābù"
+  },
+  {
+    "id": 934,
+    "text": "刷子",
+    "pinyin": "shuāzi"
+  },
+  {
+    "id": 935,
+    "text": "吸尘器",
+    "pinyin": "xīchénqì"
+  },
+  {
+    "id": 936,
+    "text": "电视",
+    "pinyin": "diànshì"
+  },
+  {
+    "id": 937,
+    "text": "电话",
+    "pinyin": "diànhuà"
+  },
+  {
+    "id": 938,
+    "text": "收音机",
+    "pinyin": "shōuyīnjī"
+  },
+  {
+    "id": 939,
+    "text": "音响",
+    "pinyin": "yīnxiǎng"
+  },
+  {
+    "id": 940,
+    "text": "洗衣机",
+    "pinyin": "xǐyījī"
+  },
+  {
+    "id": 941,
+    "text": "冰箱",
+    "pinyin": "bīngxiāng"
+  },
+  {
+    "id": 942,
+    "text": "空调",
+    "pinyin": "kōngtiáo"
+  },
+  {
+    "id": 943,
+    "text": "电风扇",
+    "pinyin": "diànfēngshàn"
+  },
+  {
+    "id": 944,
+    "text": "电灯",
+    "pinyin": "diàndēng"
+  },
+  {
+    "id": 945,
+    "text": "微波炉",
+    "pinyin": "wēibōlú"
+  },
+  {
+    "id": 946,
+    "text": "电饭煲",
+    "pinyin": "diànfànbāo"
+  },
+  {
+    "id": 947,
+    "text": "电磁炉",
+    "pinyin": "diàncílú"
+  },
+  {
+    "id": 948,
+    "text": "电水壶",
+    "pinyin": "diànshuǐhú"
+  },
+  {
+    "id": 949,
+    "text": "电熨斗",
+    "pinyin": "diànyùndǒu"
+  },
+  {
+    "id": 950,
+    "text": "吹风机",
+    "pinyin": "chuīfēngjī"
+  },
+  {
+    "id": 951,
+    "text": "剃须刀",
+    "pinyin": "tìxūdāo"
+  },
+  {
+    "id": 952,
+    "text": "电动牙刷",
+    "pinyin": "diàndòngyáshuā"
+  },
+  {
+    "id": 953,
+    "text": "游戏机",
+    "pinyin": "yóuxìjī"
+  },
+  {
+    "id": 954,
+    "text": "相机",
+    "pinyin": "xiàngjī"
+  },
+  {
+    "id": 955,
+    "text": "摄像机",
+    "pinyin": "shèxiàngjī"
+  },
+  {
+    "id": 956,
+    "text": "录音机",
+    "pinyin": "lùyīnjī"
+  },
+  {
+    "id": 957,
+    "text": "小汽车",
+    "pinyin": "xiǎoqìchē"
+  },
+  {
+    "id": 958,
+    "text": "卡车",
+    "pinyin": "kǎchē"
+  },
+  {
+    "id": 959,
+    "text": "公共汽车",
+    "pinyin": "gōnggòngqìchē"
+  },
+  {
+    "id": 960,
+    "text": "出租车",
+    "pinyin": "chūzūchē"
+  },
+  {
+    "id": 961,
+    "text": "救护车",
+    "pinyin": "jiùhùchē"
+  },
+  {
+    "id": 962,
+    "text": "消防车",
+    "pinyin": "xiāofángchē"
+  },
+  {
+    "id": 963,
+    "text": "警车",
+    "pinyin": "jǐngchē"
+  },
+  {
+    "id": 964,
+    "text": "摩托车",
+    "pinyin": "mótuōchē"
+  },
+  {
+    "id": 965,
+    "text": "电动车",
+    "pinyin": "diàndòngchē"
+  },
+  {
+    "id": 966,
+    "text": "三轮车",
+    "pinyin": "sānlúnchē"
+  },
+  {
+    "id": 967,
+    "text": "高铁",
+    "pinyin": "gāotiě"
+  },
+  {
+    "id": 968,
+    "text": "地铁",
+    "pinyin": "dìtiě"
+  },
+  {
+    "id": 969,
+    "text": "直升机",
+    "pinyin": "zhíshēngjī"
+  },
+  {
+    "id": 970,
+    "text": "轮船",
+    "pinyin": "lúnchuán"
+  },
+  {
+    "id": 971,
+    "text": "快艇",
+    "pinyin": "kuàitǐng"
+  },
+  {
+    "id": 972,
+    "text": "游艇",
+    "pinyin": "yóutǐng"
+  },
+  {
+    "id": 973,
+    "text": "帆船",
+    "pinyin": "fānchuán"
+  },
+  {
+    "id": 974,
+    "text": "独木舟",
+    "pinyin": "dúmùzhōu"
+  },
+  {
+    "id": 975,
+    "text": "热气球",
+    "pinyin": "rèqìqiú"
+  },
+  {
+    "id": 976,
+    "text": "滑翔机",
+    "pinyin": "huáxiángjī"
+  },
+  {
+    "id": 977,
+    "text": "缆车",
+    "pinyin": "lǎnchē"
+  },
+  {
+    "id": 978,
+    "text": "楼房",
+    "pinyin": "lóufáng"
+  },
+  {
+    "id": 979,
+    "text": "平房",
+    "pinyin": "píngfáng"
+  },
+  {
+    "id": 980,
+    "text": "别墅",
+    "pinyin": "biéshù"
+  },
+  {
+    "id": 981,
+    "text": "公寓",
+    "pinyin": "gōngyù"
+  },
+  {
+    "id": 982,
+    "text": "餐厅",
+    "pinyin": "cāntīng"
+  },
+  {
+    "id": 983,
+    "text": "书房",
+    "pinyin": "shūfáng"
+  },
+  {
+    "id": 984,
+    "text": "浴室",
+    "pinyin": "yùshì"
+  },
+  {
+    "id": 985,
+    "text": "走廊",
+    "pinyin": "zǒuláng"
+  },
+  {
+    "id": 986,
+    "text": "楼梯",
+    "pinyin": "lóutī"
+  },
+  {
+    "id": 987,
+    "text": "电梯",
+    "pinyin": "diàntī"
+  },
+  {
+    "id": 988,
+    "text": "大门",
+    "pinyin": "dàmén"
+  },
+  {
+    "id": 989,
+    "text": "小门",
+    "pinyin": "xiǎomén"
+  },
+  {
+    "id": 990,
+    "text": "窗台",
+    "pinyin": "chuāngtái"
+  },
+  {
+    "id": 991,
+    "text": "诊所",
+    "pinyin": "zhěnsuǒ"
+  },
+  {
+    "id": 992,
+    "text": "药店",
+    "pinyin": "yàodiàn"
+  },
+  {
+    "id": 993,
+    "text": "市场",
+    "pinyin": "shìchǎng"
+  },
+  {
+    "id": 994,
+    "text": "菜市场",
+    "pinyin": "càishìchǎng"
+  },
+  {
+    "id": 995,
+    "text": "水果店",
+    "pinyin": "shuǐguǒdiàn"
+  },
+  {
+    "id": 996,
+    "text": "花店",
+    "pinyin": "huādiàn"
+  },
+  {
+    "id": 997,
+    "text": "书店",
+    "pinyin": "shūdiàn"
+  },
+  {
+    "id": 998,
+    "text": "文具店",
+    "pinyin": "wénjùdiàn"
+  },
+  {
+    "id": 999,
+    "text": "玩具店",
+    "pinyin": "wánjùdiàn"
+  },
+  {
+    "id": 1000,
+    "text": "服装店",
+    "pinyin": "fúzhuāngdiàn"
+  },
+  {
+    "id": 1001,
+    "text": "鞋店",
+    "pinyin": "xiédiàn"
+  },
+  {
+    "id": 1002,
+    "text": "眼镜店",
+    "pinyin": "yǎnjìngdiàn"
+  },
+  {
+    "id": 1003,
+    "text": "理发店",
+    "pinyin": "lǐfàdiàn"
+  },
+  {
+    "id": 1004,
+    "text": "美容院",
+    "pinyin": "měiróngyuàn"
+  },
+  {
+    "id": 1005,
+    "text": "派出所",
+    "pinyin": "pàichūsuǒ"
+  },
+  {
+    "id": 1006,
+    "text": "消防队",
+    "pinyin": "xiāofángduì"
+  },
+  {
+    "id": 1007,
+    "text": "科技馆",
+    "pinyin": "kējìguǎn"
+  },
+  {
+    "id": 1008,
+    "text": "美术馆",
+    "pinyin": "měishùguǎn"
+  },
+  {
+    "id": 1009,
+    "text": "剧院",
+    "pinyin": "jùyuàn"
+  },
+  {
+    "id": 1010,
+    "text": "音乐厅",
+    "pinyin": "yīnyuètīng"
+  },
+  {
+    "id": 1011,
+    "text": "游泳馆",
+    "pinyin": "yóuyǒngguǎn"
+  },
+  {
+    "id": 1012,
+    "text": "健身房",
+    "pinyin": "jiànshēnfáng"
+  },
+  {
+    "id": 1013,
+    "text": "饭店",
+    "pinyin": "fàndiàn"
+  },
+  {
+    "id": 1014,
+    "text": "酒店",
+    "pinyin": "jiǔdiàn"
+  },
+  {
+    "id": 1015,
+    "text": "宾馆",
+    "pinyin": "bīnguǎn"
+  },
+  {
+    "id": 1016,
+    "text": "旅馆",
+    "pinyin": "lǚguǎn"
+  },
+  {
+    "id": 1017,
+    "text": "咖啡厅",
+    "pinyin": "kāfēitīng"
+  },
+  {
+    "id": 1018,
+    "text": "茶馆",
+    "pinyin": "cháguǎn"
+  },
+  {
+    "id": 1019,
+    "text": "酒吧",
+    "pinyin": "jiǔbā"
+  },
+  {
+    "id": 1020,
+    "text": "小吃店",
+    "pinyin": "xiǎochīdiàn"
+  },
+  {
+    "id": 1021,
+    "text": "喜欢",
+    "pinyin": "xǐhuan"
+  },
+  {
+    "id": 1022,
+    "text": "爱",
+    "pinyin": "ài"
+  },
+  {
+    "id": 1023,
+    "text": "讨厌",
+    "pinyin": "tǎoyàn"
+  },
+  {
+    "id": 1024,
+    "text": "恨",
+    "pinyin": "hèn"
+  },
+  {
+    "id": 1025,
+    "text": "想念",
+    "pinyin": "xiǎngniàn"
+  },
+  {
+    "id": 1026,
+    "text": "思念",
+    "pinyin": "sīniàn"
+  },
+  {
+    "id": 1027,
+    "text": "感谢",
+    "pinyin": "gǎnxiè"
+  },
+  {
+    "id": 1028,
+    "text": "不客气",
+    "pinyin": "búkèqi"
+  },
+  {
+    "id": 1029,
+    "text": "没关系",
+    "pinyin": "méiguānxi"
+  },
+  {
+    "id": 1030,
+    "text": "请",
+    "pinyin": "qǐng"
+  },
+  {
+    "id": 1031,
+    "text": "请坐",
+    "pinyin": "qǐngzuò"
+  },
+  {
+    "id": 1032,
+    "text": "请进",
+    "pinyin": "qǐngjìn"
+  },
+  {
+    "id": 1033,
+    "text": "请说",
+    "pinyin": "qǐngshuō"
+  },
+  {
+    "id": 1034,
+    "text": "请用",
+    "pinyin": "qǐngyòng"
+  },
+  {
+    "id": 1035,
+    "text": "请问",
+    "pinyin": "qǐngwèn"
+  },
+  {
+    "id": 1036,
+    "text": "请讲",
+    "pinyin": "qǐngjiǎng"
+  },
+  {
+    "id": 1037,
+    "text": "拜拜",
+    "pinyin": "bàibai"
+  },
+  {
+    "id": 1038,
+    "text": "回头见",
+    "pinyin": "huítóujiàn"
+  },
+  {
+    "id": 1039,
+    "text": "一会儿见",
+    "pinyin": "yīhuìrjiàn"
+  },
+  {
+    "id": 1040,
+    "text": "明天见",
+    "pinyin": "míngtiānjiàn"
+  },
+  {
+    "id": 1041,
+    "text": "晚安",
+    "pinyin": "wǎn'ān"
+  },
+  {
+    "id": 1042,
+    "text": "中午好",
+    "pinyin": "zhōngwǔhǎo"
+  },
+  {
+    "id": 1043,
+    "text": "下午好",
+    "pinyin": "xiàwǔhǎo"
+  },
+  {
+    "id": 1044,
+    "text": "您好",
+    "pinyin": "nínhǎo"
+  },
+  {
+    "id": 1045,
+    "text": "大家好",
+    "pinyin": "dàjiāhǎo"
+  },
+  {
+    "id": 1046,
+    "text": "欢迎",
+    "pinyin": "huānyíng"
+  },
+  {
+    "id": 1047,
+    "text": "欢迎光临",
+    "pinyin": "huānyíngguānglín"
+  },
+  {
+    "id": 1048,
+    "text": "知道",
+    "pinyin": "zhīdào"
+  },
+  {
+    "id": 1049,
+    "text": "明白",
+    "pinyin": "míngbai"
+  },
+  {
+    "id": 1050,
+    "text": "懂",
+    "pinyin": "dǒng"
+  },
+  {
+    "id": 1051,
+    "text": "理解",
+    "pinyin": "lǐjiě"
+  },
+  {
+    "id": 1052,
+    "text": "清楚",
+    "pinyin": "qīngchu"
+  },
+  {
+    "id": 1053,
+    "text": "了解",
+    "pinyin": "liǎojiě"
+  },
+  {
+    "id": 1054,
+    "text": "认识",
+    "pinyin": "rènshi"
+  },
+  {
+    "id": 1055,
+    "text": "熟悉",
+    "pinyin": "shúxi"
+  },
+  {
+    "id": 1056,
+    "text": "陌生",
+    "pinyin": "mòshēng"
+  },
+  {
+    "id": 1057,
+    "text": "练习",
+    "pinyin": "liànxí"
+  },
+  {
+    "id": 1058,
+    "text": "复习",
+    "pinyin": "fùxí"
+  },
+  {
+    "id": 1059,
+    "text": "预习",
+    "pinyin": "yùxí"
+  },
+  {
+    "id": 1060,
+    "text": "背诵",
+    "pinyin": "bèisòng"
+  },
+  {
+    "id": 1061,
+    "text": "记忆",
+    "pinyin": "jìyì"
+  },
+  {
+    "id": 1062,
+    "text": "忘记",
+    "pinyin": "wàngjì"
+  },
+  {
+    "id": 1063,
+    "text": "记住",
+    "pinyin": "jìzhù"
+  },
+  {
+    "id": 1064,
+    "text": "回忆",
+    "pinyin": "huíyì"
+  },
+  {
+    "id": 1065,
+    "text": "思考",
+    "pinyin": "sīkǎo"
+  },
+  {
+    "id": 1066,
+    "text": "考虑",
+    "pinyin": "kǎolǜ"
+  },
+  {
+    "id": 1067,
+    "text": "研究",
+    "pinyin": "yánjiū"
+  },
+  {
+    "id": 1068,
+    "text": "讨论",
+    "pinyin": "tǎolùn"
+  },
+  {
+    "id": 1069,
+    "text": "商量",
+    "pinyin": "shāngliang"
+  },
+  {
+    "id": 1070,
+    "text": "决定",
+    "pinyin": "juédìng"
+  },
+  {
+    "id": 1071,
+    "text": "选择",
+    "pinyin": "xuǎnzé"
+  },
+  {
+    "id": 1072,
+    "text": "挑选",
+    "pinyin": "tiāoxuǎn"
+  },
+  {
+    "id": 1073,
+    "text": "比较",
+    "pinyin": "bǐjiào"
+  },
+  {
+    "id": 1074,
+    "text": "对比",
+    "pinyin": "duìbǐ"
+  },
+  {
+    "id": 1075,
+    "text": "区别",
+    "pinyin": "qūbié"
+  },
+  {
+    "id": 1076,
+    "text": "相同",
+    "pinyin": "xiāngtóng"
+  },
+  {
+    "id": 1077,
+    "text": "不同",
+    "pinyin": "bùtóng"
+  },
+  {
+    "id": 1078,
+    "text": "一样",
+    "pinyin": "yīyàng"
+  },
+  {
+    "id": 1079,
+    "text": "相似",
+    "pinyin": "xiāngsì"
+  },
+  {
+    "id": 1080,
+    "text": "差别",
+    "pinyin": "chābié"
+  },
+  {
+    "id": 1081,
+    "text": "差异",
+    "pinyin": "chāyì"
+  },
+  {
+    "id": 1082,
+    "text": "开始",
+    "pinyin": "kāishǐ"
+  },
+  {
+    "id": 1083,
+    "text": "结束",
+    "pinyin": "jiéshù"
+  },
+  {
+    "id": 1084,
+    "text": "完成",
+    "pinyin": "wánchéng"
+  },
+  {
+    "id": 1085,
+    "text": "继续",
+    "pinyin": "jìxù"
+  },
+  {
+    "id": 1086,
+    "text": "停止",
+    "pinyin": "tíngzhǐ"
+  },
+  {
+    "id": 1087,
+    "text": "暂停",
+    "pinyin": "zàntíng"
+  },
+  {
+    "id": 1088,
+    "text": "劳动",
+    "pinyin": "láodòng"
+  },
+  {
+    "id": 1089,
+    "text": "努力",
+    "pinyin": "nǔlì"
+  },
+  {
+    "id": 1090,
+    "text": "认真",
+    "pinyin": "rènzhēn"
+  },
+  {
+    "id": 1091,
+    "text": "仔细",
+    "pinyin": "zǐxì"
+  },
+  {
+    "id": 1092,
+    "text": "专心",
+    "pinyin": "zhuānxīn"
+  },
+  {
+    "id": 1093,
+    "text": "集中",
+    "pinyin": "jízhōng"
+  },
+  {
+    "id": 1094,
+    "text": "分散",
+    "pinyin": "fēnsàn"
+  },
+  {
+    "id": 1095,
+    "text": "粗心",
+    "pinyin": "cūxīn"
+  },
+  {
+    "id": 1096,
+    "text": "马虎",
+    "pinyin": "mǎhu"
+  },
+  {
+    "id": 1097,
+    "text": "小心",
+    "pinyin": "xiǎoxīn"
+  },
+  {
+    "id": 1098,
+    "text": "注意",
+    "pinyin": "zhùyì"
+  },
+  {
+    "id": 1099,
+    "text": "提醒",
+    "pinyin": "tíxǐng"
+  },
+  {
+    "id": 1100,
+    "text": "帮助",
+    "pinyin": "bāngzhù"
+  },
+  {
+    "id": 1101,
+    "text": "帮忙",
+    "pinyin": "bāngmáng"
+  },
+  {
+    "id": 1102,
+    "text": "协助",
+    "pinyin": "xiézhù"
+  },
+  {
+    "id": 1103,
+    "text": "支持",
+    "pinyin": "zhīchí"
+  },
+  {
+    "id": 1104,
+    "text": "鼓励",
+    "pinyin": "gǔlì"
+  },
+  {
+    "id": 1105,
+    "text": "表扬",
+    "pinyin": "biǎoyáng"
+  },
+  {
+    "id": 1106,
+    "text": "称赞",
+    "pinyin": "chēngzàn"
+  },
+  {
+    "id": 1107,
+    "text": "夸奖",
+    "pinyin": "kuājiǎng"
+  },
+  {
+    "id": 1108,
+    "text": "批评",
+    "pinyin": "pīpíng"
+  },
+  {
+    "id": 1109,
+    "text": "指责",
+    "pinyin": "zhǐzé"
+  },
+  {
+    "id": 1110,
+    "text": "责怪",
+    "pinyin": "zéquài"
+  },
+  {
+    "id": 1111,
+    "text": "抱怨",
+    "pinyin": "bàoyuàn"
+  },
+  {
+    "id": 1112,
+    "text": "同意",
+    "pinyin": "tóngyì"
+  },
+  {
+    "id": 1113,
+    "text": "赞成",
+    "pinyin": "zànchéng"
+  },
+  {
+    "id": 1114,
+    "text": "反对",
+    "pinyin": "fǎnduì"
+  },
+  {
+    "id": 1115,
+    "text": "不同意",
+    "pinyin": "bùtóngyì"
+  },
+  {
+    "id": 1116,
+    "text": "拒绝",
+    "pinyin": "jùjué"
+  },
+  {
+    "id": 1117,
+    "text": "接受",
+    "pinyin": "jiēshòu"
+  },
+  {
+    "id": 1118,
+    "text": "答应",
+    "pinyin": "dāying"
+  },
+  {
+    "id": 1119,
+    "text": "允许",
+    "pinyin": "yǔnxǔ"
+  },
+  {
+    "id": 1120,
+    "text": "许可",
+    "pinyin": "xǔkě"
+  },
+  {
+    "id": 1121,
+    "text": "禁止",
+    "pinyin": "jìnzhǐ"
+  },
+  {
+    "id": 1122,
+    "text": "不许",
+    "pinyin": "bùxǔ"
+  },
+  {
+    "id": 1123,
+    "text": "不行",
+    "pinyin": "bùxíng"
+  },
+  {
+    "id": 1124,
+    "text": "可以",
+    "pinyin": "kěyǐ"
+  },
+  {
+    "id": 1125,
+    "text": "能够",
+    "pinyin": "nénggòu"
+  },
+  {
+    "id": 1126,
+    "text": "不会",
+    "pinyin": "búhuì"
+  },
+  {
+    "id": 1127,
+    "text": "不能",
+    "pinyin": "bùnéng"
+  },
+  {
+    "id": 1128,
+    "text": "必须",
+    "pinyin": "bìxū"
+  },
+  {
+    "id": 1129,
+    "text": "应该",
+    "pinyin": "yīnggāi"
+  },
+  {
+    "id": 1130,
+    "text": "应当",
+    "pinyin": "yīngdāng"
+  },
+  {
+    "id": 1131,
+    "text": "需要",
+    "pinyin": "xūyào"
+  },
+  {
+    "id": 1132,
+    "text": "要求",
+    "pinyin": "yāoqiú"
+  },
+  {
+    "id": 1133,
+    "text": "希望",
+    "pinyin": "xīwàng"
+  },
+  {
+    "id": 1134,
+    "text": "盼望",
+    "pinyin": "pànwàng"
+  },
+  {
+    "id": 1135,
+    "text": "期待",
+    "pinyin": "qīdài"
+  },
+  {
+    "id": 1136,
+    "text": "等待",
+    "pinyin": "děngdài"
+  },
+  {
+    "id": 1137,
+    "text": "等",
+    "pinyin": "děng"
+  },
+  {
+    "id": 1138,
+    "text": "等候",
+    "pinyin": "děnghòu"
+  },
+  {
+    "id": 1139,
+    "text": "准备",
+    "pinyin": "zhǔnbèi"
+  },
+  {
+    "id": 1140,
+    "text": "打算",
+    "pinyin": "dǎsuan"
+  },
+  {
+    "id": 1141,
+    "text": "计划",
+    "pinyin": "jìhuà"
+  },
+  {
+    "id": 1142,
+    "text": "安排",
+    "pinyin": "ānpái"
+  },
+  {
+    "id": 1143,
+    "text": "组织",
+    "pinyin": "zǔzhī"
+  },
+  {
+    "id": 1144,
+    "text": "管理",
+    "pinyin": "guǎnlǐ"
+  },
+  {
+    "id": 1145,
+    "text": "负责",
+    "pinyin": "fùzé"
+  },
+  {
+    "id": 1146,
+    "text": "承担",
+    "pinyin": "chéngdān"
+  },
+  {
+    "id": 1147,
+    "text": "担任",
+    "pinyin": "dānrèn"
+  },
+  {
+    "id": 1148,
+    "text": "处理",
+    "pinyin": "chǔlǐ"
+  },
+  {
+    "id": 1149,
+    "text": "解决",
+    "pinyin": "jiějué"
+  },
+  {
+    "id": 1150,
+    "text": "实现",
+    "pinyin": "shíxiàn"
+  },
+  {
+    "id": 1151,
+    "text": "达到",
+    "pinyin": "dádào"
+  },
+  {
+    "id": 1152,
+    "text": "获得",
+    "pinyin": "huòdé"
+  },
+  {
+    "id": 1153,
+    "text": "取得",
+    "pinyin": "qǔdé"
+  },
+  {
+    "id": 1154,
+    "text": "得到",
+    "pinyin": "dédào"
+  },
+  {
+    "id": 1155,
+    "text": "失去",
+    "pinyin": "shīqù"
+  },
+  {
+    "id": 1156,
+    "text": "丢失",
+    "pinyin": "diūshī"
+  },
+  {
+    "id": 1157,
+    "text": "找到",
+    "pinyin": "zhǎodào"
+  },
+  {
+    "id": 1158,
+    "text": "发现",
+    "pinyin": "fāxiàn"
+  },
+  {
+    "id": 1159,
+    "text": "发明",
+    "pinyin": "fāmíng"
+  },
+  {
+    "id": 1160,
+    "text": "创造",
+    "pinyin": "chuàngzào"
+  },
+  {
+    "id": 1161,
+    "text": "制作",
+    "pinyin": "zhìzuò"
+  },
+  {
+    "id": 1162,
+    "text": "生产",
+    "pinyin": "shēngchǎn"
+  },
+  {
+    "id": 1163,
+    "text": "制造",
+    "pinyin": "zhìzào"
+  },
+  {
+    "id": 1164,
+    "text": "建造",
+    "pinyin": "jiànzào"
+  },
+  {
+    "id": 1165,
+    "text": "建立",
+    "pinyin": "jiànlì"
+  },
+  {
+    "id": 1166,
+    "text": "成立",
+    "pinyin": "chénglì"
+  },
+  {
+    "id": 1167,
+    "text": "组成",
+    "pinyin": "zǔchéng"
+  },
+  {
+    "id": 1168,
+    "text": "形成",
+    "pinyin": "xíngchéng"
+  },
+  {
+    "id": 1169,
+    "text": "变成",
+    "pinyin": "biànchéng"
+  },
+  {
+    "id": 1170,
+    "text": "成为",
+    "pinyin": "chéngwéi"
+  },
+  {
+    "id": 1171,
+    "text": "变化",
+    "pinyin": "biànhuà"
+  },
+  {
+    "id": 1172,
+    "text": "改变",
+    "pinyin": "gǎibiàn"
+  },
+  {
+    "id": 1173,
+    "text": "修改",
+    "pinyin": "xiūgǎi"
+  },
+  {
+    "id": 1174,
+    "text": "调整",
+    "pinyin": "tiáozhěng"
+  },
+  {
+    "id": 1175,
+    "text": "改善",
+    "pinyin": "gǎishàn"
+  },
+  {
+    "id": 1176,
+    "text": "改进",
+    "pinyin": "gǎijìn"
+  },
+  {
+    "id": 1177,
+    "text": "提高",
+    "pinyin": "tígāo"
+  },
+  {
+    "id": 1178,
+    "text": "降低",
+    "pinyin": "jiàngdī"
+  },
+  {
+    "id": 1179,
+    "text": "减少",
+    "pinyin": "jiǎnshǎo"
+  },
+  {
+    "id": 1180,
+    "text": "增加",
+    "pinyin": "zēngjiā"
+  },
+  {
+    "id": 1181,
+    "text": "提升",
+    "pinyin": "tíshēng"
+  },
+  {
+    "id": 1182,
+    "text": "上升",
+    "pinyin": "shàngshēng"
+  },
+  {
+    "id": 1183,
+    "text": "下降",
+    "pinyin": "xiàjiàng"
+  },
+  {
+    "id": 1184,
+    "text": "增长",
+    "pinyin": "zēngzhǎng"
+  },
+  {
+    "id": 1185,
+    "text": "扩大",
+    "pinyin": "kuòdà"
+  },
+  {
+    "id": 1186,
+    "text": "缩小",
+    "pinyin": "suōxiǎo"
+  },
+  {
+    "id": 1187,
+    "text": "扩展",
+    "pinyin": "kuòzhǎn"
+  },
+  {
+    "id": 1188,
+    "text": "收缩",
+    "pinyin": "shōusuō"
+  },
+  {
+    "id": 1189,
+    "text": "打开",
+    "pinyin": "dǎkāi"
+  },
+  {
+    "id": 1190,
+    "text": "关闭",
+    "pinyin": "guānbì"
+  },
+  {
+    "id": 1191,
+    "text": "关上",
+    "pinyin": "guānshang"
+  },
+  {
+    "id": 1192,
+    "text": "合上",
+    "pinyin": "héshang"
+  },
+  {
+    "id": 1193,
+    "text": "翻开",
+    "pinyin": "fānkāi"
+  },
+  {
+    "id": 1194,
+    "text": "盖上",
+    "pinyin": "gàishang"
+  },
+  {
+    "id": 1195,
+    "text": "放进",
+    "pinyin": "fàngjìn"
+  },
+  {
+    "id": 1196,
+    "text": "拿出",
+    "pinyin": "náchū"
+  },
+  {
+    "id": 1197,
+    "text": "取出",
+    "pinyin": "qǔchū"
+  },
+  {
+    "id": 1198,
+    "text": "放入",
+    "pinyin": "fàngrù"
+  },
+  {
+    "id": 1199,
+    "text": "进来",
+    "pinyin": "jìnlái"
+  },
+  {
+    "id": 1200,
+    "text": "进去",
+    "pinyin": "jìnqù"
+  },
+  {
+    "id": 1201,
+    "text": "出来",
+    "pinyin": "chūlái"
+  },
+  {
+    "id": 1202,
+    "text": "出去",
+    "pinyin": "chūqù"
+  },
+  {
+    "id": 1203,
+    "text": "进入",
+    "pinyin": "jìnrù"
+  },
+  {
+    "id": 1204,
+    "text": "离开",
+    "pinyin": "líkāi"
+  },
+  {
+    "id": 1205,
+    "text": "到达",
+    "pinyin": "dàodá"
+  },
+  {
+    "id": 1206,
+    "text": "抵达",
+    "pinyin": "dǐdá"
+  },
+  {
+    "id": 1207,
+    "text": "出发",
+    "pinyin": "chūfā"
+  },
+  {
+    "id": 1208,
+    "text": "返回",
+    "pinyin": "fǎnhuí"
+  },
+  {
+    "id": 1209,
+    "text": "回来",
+    "pinyin": "huílái"
+  },
+  {
+    "id": 1210,
+    "text": "回去",
+    "pinyin": "huíqù"
+  },
+  {
+    "id": 1211,
+    "text": "过来",
+    "pinyin": "guòlái"
+  },
+  {
+    "id": 1212,
+    "text": "过去",
+    "pinyin": "guòqù"
+  },
+  {
+    "id": 1213,
+    "text": "上来",
+    "pinyin": "shànglái"
+  },
+  {
+    "id": 1214,
+    "text": "上去",
+    "pinyin": "shàngqù"
+  },
+  {
+    "id": 1215,
+    "text": "下来",
+    "pinyin": "xiàlái"
+  },
+  {
+    "id": 1216,
+    "text": "下去",
+    "pinyin": "xiàqù"
+  },
+  {
+    "id": 1217,
+    "text": "起来",
+    "pinyin": "qǐlái"
+  },
+  {
+    "id": 1218,
+    "text": "上班",
+    "pinyin": "shàngbān"
+  },
+  {
+    "id": 1219,
+    "text": "下班",
+    "pinyin": "xiàbān"
+  },
+  {
+    "id": 1220,
+    "text": "上学",
+    "pinyin": "shàngxué"
+  },
+  {
+    "id": 1221,
+    "text": "放学",
+    "pinyin": "fàngxué"
+  },
+  {
+    "id": 1222,
+    "text": "回家",
+    "pinyin": "huíjiā"
+  },
+  {
+    "id": 1223,
+    "text": "出门",
+    "pinyin": "chūmén"
+  },
+  {
+    "id": 1224,
+    "text": "进门",
+    "pinyin": "jìnmén"
+  },
+  {
+    "id": 1225,
+    "text": "来到",
+    "pinyin": "láidào"
+  },
+  {
+    "id": 1226,
+    "text": "经过",
+    "pinyin": "jīngguò"
+  },
+  {
+    "id": 1227,
+    "text": "通过",
+    "pinyin": "tōngguò"
+  },
+  {
+    "id": 1228,
+    "text": "路过",
+    "pinyin": "lùguò"
+  },
+  {
+    "id": 1229,
+    "text": "穿过",
+    "pinyin": "chuānguò"
+  },
+  {
+    "id": 1230,
+    "text": "越过",
+    "pinyin": "yuèguò"
+  },
+  {
+    "id": 1231,
+    "text": "绕过",
+    "pinyin": "ràoguò"
+  },
+  {
+    "id": 1232,
+    "text": "跳过",
+    "pinyin": "tiàoguò"
+  },
+  {
+    "id": 1233,
+    "text": "走过",
+    "pinyin": "zǒuguò"
+  },
+  {
+    "id": 1234,
+    "text": "跑过",
+    "pinyin": "pǎoguò"
+  },
+  {
+    "id": 1235,
+    "text": "飞过",
+    "pinyin": "fēiguò"
+  },
+  {
+    "id": 1236,
+    "text": "游过",
+    "pinyin": "yóuguò"
+  },
+  {
+    "id": 1237,
+    "text": "爬过",
+    "pinyin": "páguò"
+  },
+  {
+    "id": 1238,
+    "text": "爬",
+    "pinyin": "pá"
+  },
+  {
+    "id": 1239,
+    "text": "爬行",
+    "pinyin": "páxíng"
+  },
+  {
+    "id": 1240,
+    "text": "攀登",
+    "pinyin": "pāndēng"
+  },
+  {
+    "id": 1241,
+    "text": "登",
+    "pinyin": "dēng"
+  },
+  {
+    "id": 1242,
+    "text": "升高",
+    "pinyin": "shēnggāo"
+  },
+  {
+    "id": 1243,
+    "text": "落下",
+    "pinyin": "luòxia"
+  },
+  {
+    "id": 1244,
+    "text": "掉下",
+    "pinyin": "diàoxia"
+  },
+  {
+    "id": 1245,
+    "text": "掉",
+    "pinyin": "diào"
+  },
+  {
+    "id": 1246,
+    "text": "落",
+    "pinyin": "luò"
+  },
+  {
+    "id": 1247,
+    "text": "飞",
+    "pinyin": "fēi"
+  },
+  {
+    "id": 1248,
+    "text": "飞行",
+    "pinyin": "fēixíng"
+  },
+  {
+    "id": 1249,
+    "text": "飞翔",
+    "pinyin": "fēixiáng"
+  },
+  {
+    "id": 1250,
+    "text": "飘",
+    "pinyin": "piāo"
+  },
+  {
+    "id": 1251,
+    "text": "飘浮",
+    "pinyin": "piāofú"
+  },
+  {
+    "id": 1252,
+    "text": "漂浮",
+    "pinyin": "piāofú"
+  },
+  {
+    "id": 1253,
+    "text": "游",
+    "pinyin": "yóu"
+  },
+  {
+    "id": 1254,
+    "text": "游动",
+    "pinyin": "yóudòng"
+  },
+  {
+    "id": 1255,
+    "text": "划",
+    "pinyin": "huá"
+  },
+  {
+    "id": 1256,
+    "text": "划船",
+    "pinyin": "huáchuán"
+  },
+  {
+    "id": 1257,
+    "text": "划水",
+    "pinyin": "huáshuǐ"
+  },
+  {
+    "id": 1258,
+    "text": "行走",
+    "pinyin": "xíngzǒu"
+  },
+  {
+    "id": 1259,
+    "text": "步行",
+    "pinyin": "bùxíng"
+  },
+  {
+    "id": 1260,
+    "text": "散步",
+    "pinyin": "sànbù"
+  },
+  {
+    "id": 1261,
+    "text": "慢走",
+    "pinyin": "mànzǒu"
+  },
+  {
+    "id": 1262,
+    "text": "快走",
+    "pinyin": "kuàizǒu"
+  },
+  {
+    "id": 1263,
+    "text": "奔跑",
+    "pinyin": "bēnpǎo"
+  },
+  {
+    "id": 1264,
+    "text": "快跑",
+    "pinyin": "kuàipǎo"
+  },
+  {
+    "id": 1265,
+    "text": "慢跑",
+    "pinyin": "mànpǎo"
+  },
+  {
+    "id": 1266,
+    "text": "跳跃",
+    "pinyin": "tiàoyuè"
+  },
+  {
+    "id": 1267,
+    "text": "跳高",
+    "pinyin": "tiàogāo"
+  },
+  {
+    "id": 1268,
+    "text": "跳远",
+    "pinyin": "tiàoyuǎn"
+  },
+  {
+    "id": 1269,
+    "text": "蹦",
+    "pinyin": "bèng"
+  },
+  {
+    "id": 1270,
+    "text": "蹦跳",
+    "pinyin": "bèngtiào"
+  },
+  {
+    "id": 1271,
+    "text": "跃",
+    "pinyin": "yuè"
+  },
+  {
+    "id": 1272,
+    "text": "站立",
+    "pinyin": "zhànlì"
+  },
+  {
+    "id": 1273,
+    "text": "坐下",
+    "pinyin": "zuòxia"
+  },
+  {
+    "id": 1274,
+    "text": "躺下",
+    "pinyin": "tǎngxia"
+  },
+  {
+    "id": 1275,
+    "text": "蹲",
+    "pinyin": "dūn"
+  },
+  {
+    "id": 1276,
+    "text": "蹲下",
+    "pinyin": "dūnxia"
+  },
+  {
+    "id": 1277,
+    "text": "跪",
+    "pinyin": "guì"
+  },
+  {
+    "id": 1278,
+    "text": "跪下",
+    "pinyin": "guìxia"
+  },
+  {
+    "id": 1279,
+    "text": "趴",
+    "pinyin": "pā"
+  },
+  {
+    "id": 1280,
+    "text": "趴下",
+    "pinyin": "pāxia"
+  },
+  {
+    "id": 1281,
+    "text": "扶",
+    "pinyin": "fú"
+  },
+  {
+    "id": 1282,
+    "text": "扶着",
+    "pinyin": "fúzhe"
+  },
+  {
+    "id": 1283,
+    "text": "支撑",
+    "pinyin": "zhīchēng"
+  },
+  {
+    "id": 1284,
+    "text": "靠",
+    "pinyin": "kào"
+  },
+  {
+    "id": 1285,
+    "text": "靠着",
+    "pinyin": "kàozhe"
+  },
+  {
+    "id": 1286,
+    "text": "倚",
+    "pinyin": "yǐ"
+  },
+  {
+    "id": 1287,
+    "text": "倚靠",
+    "pinyin": "yǐkào"
+  },
+  {
+    "id": 1288,
+    "text": "抱着",
+    "pinyin": "bàozhe"
+  },
+  {
+    "id": 1289,
+    "text": "搂",
+    "pinyin": "lǒu"
+  },
+  {
+    "id": 1290,
+    "text": "搂着",
+    "pinyin": "lǒuzhe"
+  },
+  {
+    "id": 1291,
+    "text": "拥抱",
+    "pinyin": "yōngbào"
+  },
+  {
+    "id": 1292,
+    "text": "拉着",
+    "pinyin": "lāzhe"
+  },
+  {
+    "id": 1293,
+    "text": "拖着",
+    "pinyin": "tuōzhe"
+  },
+  {
+    "id": 1294,
+    "text": "推着",
+    "pinyin": "tuīzhe"
+  },
+  {
+    "id": 1295,
+    "text": "搬动",
+    "pinyin": "bāndòng"
+  },
+  {
+    "id": 1296,
+    "text": "移动",
+    "pinyin": "yídòng"
+  },
+  {
+    "id": 1297,
+    "text": "转动",
+    "pinyin": "zhuàndòng"
+  },
+  {
+    "id": 1298,
+    "text": "旋转",
+    "pinyin": "xuánzhuǎn"
+  },
+  {
+    "id": 1299,
+    "text": "滚动",
+    "pinyin": "gǔndòng"
+  },
+  {
+    "id": 1300,
+    "text": "滑动",
+    "pinyin": "huádòng"
+  }
+]

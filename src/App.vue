@@ -3,13 +3,14 @@ import { ref } from 'vue'
 import HomePage from './components/HomePage.vue'
 import PracticePage from './components/PracticePage.vue'
 import ComponentPracticePage from './components/ComponentPracticePage.vue'
+import TypingPracticePage from './components/TypingPracticePage.vue'
 import ResultPage from './components/ResultPage.vue'
 import PronunciationTest from './components/PronunciationTest.vue'
 import AudioTest from './components/AudioTest.vue'
 import { getRandomQuestions, type PinyinQuestion, type PracticeMode } from './data/pinyinData'
 
 // 应用状态
-type AppState = 'home' | 'practice' | 'component-practice' | 'result' | 'pronunciation-test' | 'audio-test'
+type AppState = 'home' | 'practice' | 'component-practice' | 'typing-practice' | 'result' | 'pronunciation-test' | 'audio-test'
 const currentState = ref<AppState>('home')
 
 // 练习设置
@@ -81,6 +82,33 @@ const goToPronunciationTest = () => {
 const goToAudioTest = () => {
   currentState.value = 'audio-test'
 }
+
+// 打字练习设置
+const typingSettings = ref({
+  duration: 60,
+  questionCount: 20,
+  speechEnabled: true,
+  autoPlay: false
+})
+
+// 进入打字练习
+const goToTypingPractice = (settings?: {
+  duration: number
+  questionCount: number
+  speechEnabled: boolean
+  autoPlay: boolean
+}) => {
+  if (settings) {
+    typingSettings.value = settings
+  }
+  currentState.value = 'typing-practice'
+}
+
+// 完成打字练习
+const finishTypingPractice = (result: any) => {
+  practiceResult.value = result
+  currentState.value = 'result'
+}
 </script>
 
 <template>
@@ -89,6 +117,7 @@ const goToAudioTest = () => {
     <HomePage 
       v-if="currentState === 'home'"
       @start-practice="startPractice"
+      @start-typing="goToTypingPractice"
       @test-pronunciation="goToPronunciationTest"
       @test-audio="goToAudioTest"
     />
@@ -111,6 +140,17 @@ const goToAudioTest = () => {
       :speech-enabled="practiceSettings.speechEnabled"
       :auto-play="practiceSettings.autoPlay"
       @finish="finishComponentPractice"
+      @back="backToHome"
+    />
+    
+    <!-- 打字练习页面 -->
+    <TypingPracticePage 
+      v-if="currentState === 'typing-practice'"
+      :duration="typingSettings.duration"
+      :question-count="typingSettings.questionCount"
+      :speech-enabled="typingSettings.speechEnabled"
+      :auto-play="typingSettings.autoPlay"
+      @finish="finishTypingPractice"
       @back="backToHome"
     />
     

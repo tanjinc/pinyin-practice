@@ -1,10 +1,16 @@
 <template>
   <div class="result-page">
     <div class="container">
-      <div class="header">
+      <!-- <div class="header">
         <div class="trophy-icon">🏆</div>
         <h1 class="title">练习完成！</h1>
-        <p class="subtitle">查看你的成绩表现</p>
+      </div> -->
+
+      <!-- 成绩评价 -->
+      <div class="performance-rating">
+        <div class="rating-icon">{{ getRatingIcon() }}</div>
+        <div class="rating-text">{{ getRatingText() }}</div>
+        <div class="rating-description">{{ getRatingDescription() }}</div>
       </div>
 
       <div class="stats-grid">
@@ -44,12 +50,6 @@
         </div>
       </div>
 
-      <!-- 成绩评价 -->
-      <div class="performance-rating">
-        <div class="rating-icon">{{ getRatingIcon() }}</div>
-        <div class="rating-text">{{ getRatingText() }}</div>
-        <div class="rating-description">{{ getRatingDescription() }}</div>
-      </div>
 
       <!-- 错题回顾 -->
       <div class="mistakes-review" v-if="mistakes.length > 0">
@@ -247,7 +247,7 @@ const shareResult = () => {
 .result-page {
   min-height: 100vh;
   background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 20px;
+  padding: 12px;
 }
 
 .container {
@@ -255,13 +255,13 @@ const shareResult = () => {
   margin: 0 auto;
   background: white;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .trophy-icon {
@@ -289,12 +289,12 @@ const shareResult = () => {
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-bottom: 30px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .stat-card {
-  padding: 25px;
+  padding: 10px;
   border-radius: 16px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
