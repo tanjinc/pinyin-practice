@@ -45,7 +45,7 @@
         v-model="userInput"
         @input="handleInput"
         @focus="handleInputFocus"
-        @keydown.enter.prevent="submitAnswer"
+        @keydown.enter.prevent="() => submitAnswer()"
         class="pinyin-input"
         :class="{
           'input-correct': inputStatus === 'correct',
@@ -87,7 +87,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import typingData from '../data/typingData.json'
 import { speechService } from '../services/speechService'
 import { audioService } from '../services/audioService'
@@ -139,7 +139,7 @@ const errorIndices = ref<number[]>([])
 const inputStatus = ref<'correct' | 'error' | null>(null)
 const isPaused = ref(false)
 const isFinished = ref(false)
-const startTime = ref(Date.now())
+// const startTime = ref(Date.now())
 const inputRef = ref<HTMLInputElement>()
 const originalViewportHeight = ref(0)
 
